@@ -5,7 +5,7 @@ Primary Functions:
 - Saves the data to a local JSON file.
 - Provides basic stats on the downloaded data.
 Inputs:
-- API Key (hardcoded: 143a3df23d27)
+- API Key (via JOSHUA_PROJECT_API_KEY env var)
 Outputs:
 - joshua_project_full_dump.json
 """
@@ -15,7 +15,7 @@ import json
 import os
 import time
 
-API_KEY = "143a3df23d27"
+API_KEY = os.environ.get("JOSHUA_PROJECT_API_KEY", "YOUR_API_KEY_HERE")
 BASE_URL = "https://api.joshuaproject.net/v1/people_groups.json"
 OUTPUT_FILE = "joshua_project_full_dump.json"
 

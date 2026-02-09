@@ -1,34 +1,59 @@
+---
+license: mit
+task_categories:
+  - tabular-classification
+  - text-classification
+language:
+  - en
+tags:
+  - demographics
+  - linguistics
+  - religion
+  - geospatial
+  - people-groups
+  - languages
+  - missions
+pretty_name: Joshua Project Global Peoples
+size_categories:
+  - 10K<n<100K
+---
+
 # Joshua Project Global Peoples Dataset
 
 ## Dataset Description
 
-The Joshua Project dataset provides comprehensive demographic, linguistic, and religious information about people groups worldwide. This dataset is the primary source for understanding unreached people groups and Bible translation needs globally.
+- **Homepage:** [joshuaproject.net](https://joshuaproject.net)
+- **Repository:** [github.com/lukeslp/joshua-project-data](https://github.com/lukeslp/joshua-project-data)
+- **Point of Contact:** [Luke Steuber](https://lukesteuber.com)
+- **Part of:** [Data Trove](https://dr.eamer.dev/datavis/data_trove/)
 
 ### Dataset Summary
 
+Comprehensive demographic, linguistic, and religious data for people groups worldwide, sourced from the Joshua Project API v1.
+
 - **16,382 people groups** across 238 countries
-- **7,134 languages** with translation status
-- **Demographic data**: Population, geographic location, cultural affinity
-- **Religious data**: Primary religion, Christian/evangelical percentages, JP Scale
-- **Translation data**: Bible status, Jesus Film availability, audio resources
+- **7,134 languages** with Bible translation status
+- **Enriched Parquet files** for fast analysis (95% smaller than JSON)
+- Updated December 2025
 
 ### Supported Tasks
 
 - Geospatial visualization and mapping
-- Demographic analysis and statistics
-- Mission strategy planning and research
+- Demographic analysis and clustering
+- Linguistic diversity research
 - Bible translation gap analysis
-- Religious demographics research
+- Cross-cultural studies
 
 ### Languages
 
-Data includes information about 7,134 languages worldwide, with ISO 639-3 language codes (ROL3).
+Data covers 7,134 languages identified by ISO 639-3 codes.
 
 ## Dataset Structure
 
 ### Data Instances
 
-**Enriched Format** (recommended for visualization):
+Each record in the enriched dataset looks like:
+
 ```json
 {
   "PeopleID3": 10208,
@@ -40,8 +65,7 @@ Data includes information about 7,134 languages worldwide, with ISO 639-3 langua
   "country_data": {
     "name": "Niger",
     "percent_christianity": 1.62,
-    "total_peoples": 36,
-    "unreached_peoples": 30
+    "total_peoples": 36
   },
   "language_data": {
     "name": "Tamajeq, Tayart",
@@ -51,150 +75,74 @@ Data includes information about 7,134 languages worldwide, with ISO 639-3 langua
 }
 ```
 
-**Normalized Format** (for relational queries):
-- Separate people_groups, countries, languages, and totals tables
-- Join via ROG3 (country code) and ROL3 (language code)
-
 ### Data Fields
 
-#### People Groups (16,382 records)
-- `PeopleID3` - Unique identifier
-- `PeopNameInCountry` - People group name within country
-- `ROG3` - Country code (3-letter)
-- `ROL3` - Language code (3-letter)
-- `Population` - Estimated population
-- `LeastReached` - Y/N indicator (< 2% evangelical)
-- `JPScale` - Joshua Project Scale (1-5, measuring gospel access)
-- `PrimaryReligion` - Predominant religion
-- `PercentEvangelical` - % evangelical Christian
-- `BibleStatus` - Bible translation status code
-- ... (107 total fields)
+| Field | Type | Description |
+|-------|------|-------------|
+| `PeopleID3` | int | Unique people-group identifier |
+| `PeopNameInCountry` | str | Name within country context |
+| `ROG3` | str | 3-letter country code |
+| `ROL3` | str | 3-letter language code (ISO 639-3) |
+| `Population` | int | Estimated population |
+| `LeastReached` | str | `Y` / `N` — under 2% evangelical |
+| `JPScale` | int | 1-5 gospel access scale |
+| `PrimaryReligion` | str | Predominant religion |
+| `PercentEvangelical` | float | Evangelical Christian % |
+| `BibleStatus` | int | Translation completeness (0-5) |
 
-#### Countries (238 records)
-- `ROG3` - Country code
-- `Ctry` - Country name
-- `Continent` - Continent name
-- `CntPeoples` - Total people groups in country
-- `CntPeoplesLR` - Count of unreached people groups
-- `PercentChristianity` - % Christian adherents
-- ... (statistical aggregations)
-
-#### Languages (7,134 records)
-- `ROL3` - Language code (ISO 639-3)
-- `Language` - Language name
-- `BibleStatus` - Translation status (0-5 scale)
-- `NTYear` - New Testament publication year(s)
-- `HasJesusFilm` - Y/N indicator
-- ... (translation resources)
+107 total fields per record. See [FieldDefinitions.csv](https://github.com/lukeslp/joshua-project-data/blob/main/archive/FieldDefinitions.csv) for the complete schema.
 
 ### Data Splits
 
 | Split | Records | Description |
 |-------|---------|-------------|
-| `full` | 16,382 | All people groups (enriched) |
-| `unreached` | 7,124 | Least-reached only (< 2% evangelical) |
-| `normalized/people_groups` | 16,382 | People groups (normalized) |
-| `normalized/countries` | 238 | Countries (normalized) |
-| `normalized/languages` | 7,134 | Languages (normalized) |
-| `normalized/totals` | 38 | Global statistics |
+| Full (enriched) | 16,382 | All people groups with embedded country/language data |
+| Unreached | 7,124 | Least-reached subset (< 2% evangelical) |
 
 ## Dataset Creation
 
-### Curation Rationale
-
-The Joshua Project tracks people groups worldwide to identify where the Christian gospel has limited presence and where Bible translation/missions work is needed. This data supports:
-
-- Strategic mission planning
-- Bible translation prioritization
-- Academic research on religion and demographics
-- Cultural and linguistic preservation efforts
-
 ### Source Data
 
-**Initial Data Collection**:
-- Primary source: Joshua Project Research Initiative
-- API endpoint: https://api.joshuaproject.net/v1/
-- Data collected: December 21-23, 2025
-- Update frequency: Quarterly (recommended)
+- **Provider:** [Joshua Project](https://joshuaproject.net) via [API v1](https://api.joshuaproject.net/)
+- **API maintainer:** [Missional Digerati](https://missionaldigerati.org)
+- **Collection date:** December 21-23, 2025
+- **Method:** Full API dump via Python fetcher scripts (included in repo)
+- **Recommended refresh:** Quarterly
 
-**Data Collection Process**:
-1. Fetched via Joshua Project API v1
-2. Normalized datasets joined and enriched
-3. Exported to Parquet (columnar) and JSON (document) formats
+### Considerations for Using the Data
 
-### Annotations
+**Known biases:**
+- Data is collected with a Christian missions focus — religious categorizations reflect that lens
+- Population figures are estimates, not census data
+- Coverage is more detailed for regions with active missions research
 
-Data is primarily observational (demographic/linguistic facts) with some analytical fields:
-- **JP Scale**: Expert assessment of gospel access (1-5)
-- **Least Reached**: Calculated from evangelical percentage
-- **Bible Status**: Assessed translation completeness (0-5)
+**Limitations:**
+- Snapshot from December 2025; populations and percentages change over time
+- Religious categories are simplified; doesn't capture pluralism
+- Some remote groups have sparse information
 
-Annotations are performed by Joshua Project researchers through field research, surveys, and published sources.
-
-## Considerations for Using the Data
-
-### Social Impact of Dataset
-
-**Intended Use**:
-- Mission strategy and resource allocation
-- Academic research on global religion
-- Bible translation planning
-- Geospatial visualization of cultural/linguistic diversity
-
-**Potential Misuse**:
-- Should NOT be used for political targeting or discrimination
-- Population estimates are approximations, not precise census data
-- Religious affiliation percentages are estimates based on available research
-
-### Discussion of Biases
-
-- **Christian-centric perspective**: Data is collected with Christian missions focus
-- **Population estimates**: Based on regional census data and research estimates; may lag reality by years
-- **Religious categorization**: Simplified into broad categories; doesn't capture religious pluralism
-- **Geographic focus**: More detailed data for regions with active missions research
-
-### Other Known Limitations
-
-- **Updates**: Data reflects 2025 snapshot; populations and percentages change over time
-- **Country boundaries**: Political changes may affect country codes (ROG3)
-- **Language codes**: Follows ISO 639-3 which occasionally updates
-- **Missing data**: Some remote people groups have limited information
+**Ethical use:**
+- Not intended for political targeting or discrimination
+- Population estimates should be cited as approximations
 
 ## Additional Information
 
-### Dataset Curators
+### Licensing
 
-- **Original data**: Joshua Project (joshuaproject.net)
-- **Dataset packaging**: Luke Steuber
-- **API provided by**: Missional Digerati
+This packaging is MIT-licensed. The underlying data is provided by Joshua Project for research purposes — see [joshuaproject.net](https://joshuaproject.net) for their terms.
 
-### Licensing Information
-
-Joshua Project data is provided for research and missions purposes. Check joshuaproject.net for current terms of use.
-
-### Citation Information
+### Citation
 
 ```bibtex
 @dataset{joshua_project_2025,
-  title={Joshua Project Global Peoples Dataset},
-  author={Joshua Project},
-  year={2025},
-  publisher={Joshua Project},
-  url={https://joshuaproject.net},
-  note={Data fetched December 2025 via API v1}
+  title   = {Joshua Project Global Peoples Dataset},
+  author  = {Joshua Project},
+  year    = {2025},
+  url     = {https://joshuaproject.net},
+  note    = {Packaged by Luke Steuber, fetched December 2025 via API v1}
 }
 ```
 
-### Contributions
+### Dataset Card Author
 
-For questions about the underlying data, contact Joshua Project via joshuaproject.net.
-
-For issues with this dataset packaging, see the repository README.
-
-## Dataset Card Authors
-
-Luke Steuber
-
-## Dataset Card Contact
-
-See repository for contact information.
+[Luke Steuber](https://lukesteuber.com) — [dr.eamer.dev](https://dr.eamer.dev)

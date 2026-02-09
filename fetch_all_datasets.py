@@ -7,7 +7,7 @@ Primary Functions:
 - Provides progress indicators and error handling
 
 Inputs:
-- API Key (hardcoded: 143a3df23d27)
+- API Key (via JOSHUA_PROJECT_API_KEY env var)
 
 Outputs:
 - joshua_project_countries.json
@@ -22,7 +22,7 @@ import os
 import time
 from datetime import datetime
 
-API_KEY = "143a3df23d27"
+API_KEY = os.environ.get("JOSHUA_PROJECT_API_KEY", "YOUR_API_KEY_HERE")
 BASE_URL = "https://api.joshuaproject.net/v1"
 
 # Dataset definitions

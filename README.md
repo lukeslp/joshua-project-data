@@ -1,170 +1,192 @@
-# Joshua Project Data
+# Joshua Project Global Peoples Dataset
 
-## Overview
-This directory contains **complete datasets** from the Joshua Project, fetched directly from their API v1. The Joshua Project is a research initiative providing demographic and religious information about people groups worldwide, serving as the primary source of truth for visualizations regarding global access to the Gospel, language groups, and missiological statistics.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Data Source](https://img.shields.io/badge/Source-Joshua%20Project%20API-orange)](https://joshuaproject.net)
+[![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace-yellow)](https://huggingface.co/datasets/lukeslp/joshua-project-peoples)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF)](https://www.kaggle.com/datasets/lukeslp/joshua-project-global-peoples)
 
-## Complete Dataset Inventory
+Comprehensive demographic, linguistic, and religious data for **16,382 people groups** across **238 countries** and **7,134 languages**, fetched directly from the [Joshua Project API](https://api.joshuaproject.net/).
 
-This repository now contains **all 4 available datasets** from the Joshua Project API:
+Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection at [dr.eamer.dev](https://dr.eamer.dev).
 
-### 1. People Groups (PGIC - People Groups in Countries)
-- **File**: `joshua_project_full_dump.json`
-- **Records**: 16,382
-- **Size**: 129 MB
-- **Fetched**: Dec 21, 2025
-- **Endpoint**: `/v1/people_groups.json`
-- **Description**: Detailed demographic and religious data for people groups within specific countries
-- **Key ID**: `PeopleID3` (unique identifier for a people group within a country)
+---
 
-### 2. Countries
-- **File**: `joshua_project_countries.json`
-- **Records**: 238
-- **Size**: 0.28 MB
-- **Fetched**: Dec 23, 2025
-- **Endpoint**: `/v1/countries.json`
-- **Description**: Country-level statistics including religious composition, people group counts, and least-reached status
-- **Key ID**: `ROG3` (three-letter country code)
+## What's Inside
 
-### 3. Languages
-- **File**: `joshua_project_languages.json`
-- **Records**: 7,134
-- **Size**: 4.81 MB
-- **Fetched**: Dec 23, 2025
-- **Endpoint**: `/v1/languages.json`
-- **Description**: Language details including Bible translation status, audio recordings, and Jesus Film availability
-- **Key ID**: `ROL3` (three-letter language code)
+| File | Records | Size | Format |
+|------|---------|------|--------|
+| `joshua_project_full_dump.json` | 16,382 people groups | 130 MB | JSON (LFS) |
+| `joshua_project_countries.json` | 238 countries | 286 KB | JSON |
+| `joshua_project_languages.json` | 7,134 languages | 4.9 MB | JSON |
+| `joshua_project_totals.json` | 38 global stats | 3 KB | JSON |
+| `joshua_project_enriched.parquet` | 16,382 (denormalized) | 6.2 MB | Parquet (LFS) |
+| `joshua_project_unreached.parquet` | 7,124 unreached | 3.8 MB | Parquet (LFS) |
 
-### 4. Summary Statistics
-- **File**: `joshua_project_totals.json`
-- **Records**: 38
-- **Size**: < 0.01 MB
-- **Fetched**: Dec 23, 2025
-- **Endpoint**: `/v1/totals.json`
-- **Description**: Global aggregate statistics (e.g., count of Buddhist people groups, total unreached populations, etc.)
+**Enriched** variants embed country and language data directly into each people-group record -- no joins required.
 
-## Metadata Tracker
-- **`dataset_metadata.json`**: Tracks fetch dates, record counts, and file locations for all datasets
+**Parquet** variants are 95% smaller than their JSON equivalents and load 10-100x faster in pandas.
 
-## Scripts
+---
 
-### Fetch All Datasets (Recommended)
-- **`fetch_all_datasets.py`**: Unified script to fetch **all 3 missing datasets** (countries, languages, totals)
-  - Usage: `python3 fetch_all_datasets.py`
-  - Features: Progress indicators, error handling, automatic metadata generation
-  - Duration: ~3-5 seconds for all datasets
+## Quick Start
 
-### Fetch People Groups Only
-- **`fetch_full_data.py`**: Legacy script to fetch only the people groups dataset
-  - Usage: `python3 fetch_full_data.py`
-  - Note: Use `fetch_all_datasets.py` for a complete refresh of all data
+### Python / pandas
 
-## Dataset Relationships
+```python
+import pandas as pd
 
-The four datasets are interconnected through shared identifiers:
+# Load the enriched dataset (recommended)
+df = pd.read_parquet("joshua_project_enriched.parquet")
 
-- **People Groups** reference **Countries** via `ROG3` and **Languages** via `ROL3`
-- **Countries** aggregate data from all people groups within their borders
-- **Languages** show which people groups speak each language
-- **Totals** provide global summary statistics derived from the people groups dataset
+# Unreached people groups in South Asia
+unreached_sa = df[(df["LeastReached"] == "Y") & (df["ROG3Continent"] == "Asia")]
+print(f"{len(unreached_sa):,} unreached groups in Asia")
+```
 
-**Example**: A person searching for unreached people groups speaking Hindi (`ROL3: hin`) in India (`ROG3: IN`) would:
-1. Query `languages.json` for Hindi language details
-2. Query `countries.json` for India's overall statistics
-3. Filter `people_groups.json` where `ROG3 = "IN"` AND `ROL3 = "hin"`
-4. Reference `totals.json` for global context
+### D3.js / JavaScript
 
-## Archive
+```javascript
+const data = await d3.json("joshua_project_enriched.json");
 
-The `archive/` directory preserves legacy data for reference:
+// Top 10 unreached by population
+const top = data
+  .filter(d => d.LeastReached === "Y")
+  .sort((a, b) => b.Population - a.Population)
+  .slice(0, 10);
+```
 
-- **CSV Extracts** (circa 2016): Outdated snapshots, replaced by current JSON datasets
-  - `AllPeoplesInCountry.csv` - Old people groups listing
-  - `AllCountriesListing.csv` - Old countries data
-  - `AllLanguageListing.csv` - Old languages data
-  - `UnreachedPeoplesByCountry.csv` - Subset of unreached peoples
-- **CPPI Data** (`jp-cppi-cross-reference-csv.zip`): Church Planting Progress Indicators
-- **Harvest Field Data** (`jpharvfielddataonly.zip`): Microsoft Access databases (.accdb, .mdb)
-- **Analysis Reports**: Preliminary data summaries (`joshua_data_summary.md`)
+### Command Line
 
-**Note**: The JSON datasets from the API are the current source of truth. CSV files are retained for historical reference only.
-
-## Data Notes
-
-### Important Concepts
-- **People Group Definition**: A "People Group" is defined primarily by socio-linguistic barriers to the spread of the Gospel, not necessarily by political or strict genetic boundaries.
-- **Population Data**: All population figures are estimates and should be treated as approximations. The API data is more current than archived CSVs.
-- **Least Reached**: People groups with less than 2% evangelical Christian population and less than 5% Christian adherents.
-- **Joshua Project Scale (JPScale)**: 1-5 scale measuring gospel access and church establishment (1 = least reached, 5 = most reached)
-
-### Data Freshness
-- **Current API Data**: Dec 21-23, 2025
-- **Archive CSV Data**: Circa 2016 (outdated)
-- **Update Frequency**: Run `fetch_all_datasets.py` to refresh all datasets with latest API data
-
-### API Access
-- **Base URL**: `https://api.joshuaproject.net/v1/`
-- **API Key**: Required for all requests (currently hardcoded in scripts)
-- **Documentation**: https://api.joshuaproject.net/
-- **Rate Limiting**: Be respectful; add delays between bulk requests
-
-## Enriched Datasets (For Visualization & Analysis)
-
-In addition to the normalized datasets, **enriched versions** are available that combine people groups with country and language data:
-
-### Full Enriched Dataset
-- **`joshua_project_enriched.json`** (139 MB) - All people groups with embedded country/language data
-- **`joshua_project_enriched.parquet`** (6.2 MB) - Same data, **95.5% smaller** in columnar format
-
-### Unreached Subset
-- **`joshua_project_unreached.json`** (72 MB) - Only unreached peoples (7,124 records)
-- **`joshua_project_unreached.parquet`** (3.8 MB) - Compressed columnar format
-
-**Why use enriched datasets?**
-- ✅ No joins needed - all data in one record
-- ✅ Perfect for D3.js, Observable, and visualization tools
-- ✅ Faster analysis in Python/R with Parquet format
-- ✅ Ready for Hugging Face upload
-
-### Creating Enriched Datasets
 ```bash
+# Refresh all datasets from the API
+export JOSHUA_PROJECT_API_KEY="your_key_here"
+python3 fetch_all_datasets.py
+
+# Regenerate enriched + parquet files
 python3 create_enriched_datasets.py
 ```
 
-This generates:
-- Full enriched dataset (JSON + Parquet)
-- Unreached subset (JSON + Parquet)
-- Metadata with statistics
+Get an API key free at [joshuaproject.net/api](https://joshuaproject.net/api).
 
-## Data Utilities
+---
 
-Use `data_utilities.py` for easy data loading and querying:
+## Dataset Relationships
 
-```python
-from data_utilities import *
+```
+People Groups  ──┬── ROG3 ──▶  Countries
+                  └── ROL3 ──▶  Languages
 
-# Load enriched data
-data = load_enriched()
-
-# Get people groups by country
-india = get_by_country('IN')
-
-# Get unreached only
-unreached = load_unreached()
-
-# Use Parquet for fast analysis
-import pandas as pd
-df = pd.read_parquet(load_parquet('enriched'))
+Totals = global aggregates across all people groups
 ```
 
-See `USAGE_GUIDE.md` for complete examples.
+- **`ROG3`** — 3-letter country code (e.g., `IN` = India)
+- **`ROL3`** — 3-letter language code, ISO 639-3 (e.g., `hin` = Hindi)
+- **`PeopleID3`** — unique people-group identifier
+
+---
+
+## Key Fields
+
+| Field | Description |
+|-------|-------------|
+| `PeopNameInCountry` | People group name within a specific country |
+| `Population` | Estimated population |
+| `PrimaryReligion` | Predominant religion |
+| `LeastReached` | `Y` if < 2% evangelical, < 5% Christian adherents |
+| `JPScale` | 1-5 scale of gospel access (1 = least reached) |
+| `BibleStatus` | Bible translation completeness (0-5) |
+| `PercentEvangelical` | Evangelical Christian percentage |
+
+Full field definitions: [`archive/FieldDefinitions.csv`](archive/FieldDefinitions.csv)
+
+---
+
+## Refreshing the Data
+
+The Joshua Project updates their data regularly. To pull the latest:
+
+```bash
+# 1. Set your API key
+export JOSHUA_PROJECT_API_KEY="your_key_here"
+
+# 2. Fetch normalized datasets (~5 seconds)
+python3 fetch_all_datasets.py
+
+# 3. Fetch full people groups dump (~30 seconds)
+python3 fetch_full_data.py
+
+# 4. Regenerate enriched datasets (~30 seconds)
+python3 create_enriched_datasets.py
+```
+
+I recommend refreshing quarterly.
+
+---
+
+## Project Structure
+
+```
+├── joshua_project_full_dump.json       # 16,382 people groups (source of truth)
+├── joshua_project_countries.json       # 238 countries
+├── joshua_project_languages.json       # 7,134 languages
+├── joshua_project_totals.json          # 38 global summary stats
+├── joshua_project_enriched.parquet     # Denormalized, analysis-ready
+├── joshua_project_unreached.parquet    # Unreached subset only
+│
+├── fetch_all_datasets.py               # Fetch countries/languages/totals
+├── fetch_full_data.py                  # Fetch full people groups dump
+├── create_enriched_datasets.py         # Generate enriched + parquet
+├── data_utilities.py                   # Python loading helpers
+│
+├── ARCHITECTURE.md                     # System design overview
+├── DATASET_CARD.md                     # HuggingFace dataset card
+├── USAGE_GUIDE.md                      # Detailed usage examples
+├── LICENSE                             # MIT
+└── archive/                            # Legacy CSVs (2016 era)
+```
+
+---
 
 ## Documentation
 
-| File | Purpose |
-|------|---------|
-| **`USAGE_GUIDE.md`** | Complete guide to using the datasets (visualizations, analysis, Hugging Face) |
-| **`DATA_INTEGRATION_STRATEGY.md`** | Technical architecture and integration strategy |
-| **`DATASET_CARD.md`** | Hugging Face dataset card (ready for upload) |
-| **`data_utilities.py`** | Python utilities for easy data loading |
-| **`dataset_metadata.json`** | Fetch dates and record counts |
-| **`enriched_metadata.json`** | Enrichment process statistics |
+| Doc | Purpose |
+|-----|---------|
+| [ARCHITECTURE.md](ARCHITECTURE.md) | Normalized vs. enriched design, data flow diagrams |
+| [DATASET_CARD.md](DATASET_CARD.md) | HuggingFace-format dataset card with bias/limitations |
+| [USAGE_GUIDE.md](USAGE_GUIDE.md) | Detailed Python, D3.js, and R usage examples |
+| [DATA_INTEGRATION_STRATEGY.md](DATA_INTEGRATION_STRATEGY.md) | Technical integration and enrichment strategy |
+
+---
+
+## Data Source & Attribution
+
+All data originates from the [Joshua Project](https://joshuaproject.net), a research initiative tracking people groups worldwide. The API is maintained by [Missional Digerati](https://missionaldigerati.org).
+
+If you use this dataset, please cite:
+
+```bibtex
+@dataset{joshua_project_2025,
+  title   = {Joshua Project Global Peoples Dataset},
+  author  = {Joshua Project},
+  year    = {2025},
+  url     = {https://joshuaproject.net},
+  note    = {Packaged by Luke Steuber, fetched December 2025 via API v1}
+}
+```
+
+---
+
+## Related
+
+- [Data Trove](https://dr.eamer.dev/datavis/data_trove/) — full dataset catalog
+- [lukesteuber.com](https://lukesteuber.com) — portfolio
+- [HuggingFace Dataset](https://huggingface.co/datasets/lukeslp/joshua-project-peoples)
+- [Kaggle Dataset](https://www.kaggle.com/datasets/lukeslp/joshua-project-global-peoples)
+
+---
+
+## License
+
+MIT. See [LICENSE](LICENSE).
+
+The underlying data is provided by Joshua Project for research purposes. Check [joshuaproject.net](https://joshuaproject.net) for their terms of use.
