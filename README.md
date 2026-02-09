@@ -5,7 +5,7 @@
 [![HuggingFace](https://img.shields.io/badge/%F0%9F%A4%97-HuggingFace-yellow)](https://huggingface.co/datasets/lukeslp/joshua-project-peoples)
 [![Kaggle](https://img.shields.io/badge/Kaggle-Dataset-20BEFF)](https://www.kaggle.com/datasets/lukeslp/joshua-project-global-peoples)
 
-Comprehensive demographic, linguistic, and religious data for **16,382 people groups** across **238 countries** and **7,134 languages**, fetched directly from the [Joshua Project API](https://api.joshuaproject.net/).
+Demographic, linguistic, and religious data for **16,382 people groups** across **238 countries** and **7,134 languages**, fetched from the [Joshua Project API](https://api.joshuaproject.net/).
 
 Part of the [Data Trove](https://dr.eamer.dev/datavis/data_trove/) collection at [dr.eamer.dev](https://dr.eamer.dev).
 
@@ -79,9 +79,9 @@ People Groups  ──┬── ROG3 ──▶  Countries
 Totals = global aggregates across all people groups
 ```
 
-- **`ROG3`** — 3-letter country code (e.g., `IN` = India)
-- **`ROL3`** — 3-letter language code, ISO 639-3 (e.g., `hin` = Hindi)
-- **`PeopleID3`** — unique people-group identifier
+- **`ROG3`** --3-letter country code (e.g., `IN` = India)
+- **`ROL3`** --3-letter language code, ISO 639-3 (e.g., `hin` = Hindi)
+- **`PeopleID3`** --unique people-group identifier
 
 ---
 
@@ -178,8 +178,8 @@ If you use this dataset, please cite:
 
 ## Related
 
-- [Data Trove](https://dr.eamer.dev/datavis/data_trove/) — full dataset catalog
-- [lukesteuber.com](https://lukesteuber.com) — portfolio
+- [Data Trove](https://dr.eamer.dev/datavis/data_trove/) --full dataset catalog
+- [lukesteuber.com](https://lukesteuber.com) --portfolio
 - [HuggingFace Dataset](https://huggingface.co/datasets/lukeslp/joshua-project-peoples)
 - [Kaggle Dataset](https://www.kaggle.com/datasets/lukeslp/joshua-project-global-peoples)
 

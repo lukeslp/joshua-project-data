@@ -29,7 +29,7 @@ size_categories:
 
 ### Dataset Summary
 
-Comprehensive demographic, linguistic, and religious data for people groups worldwide, sourced from the Joshua Project API v1.
+Demographic, linguistic, and religious data for people groups worldwide, sourced from the Joshua Project API v1.
 
 - **16,382 people groups** across 238 countries
 - **7,134 languages** with Bible translation status
@@ -84,7 +84,7 @@ Each record in the enriched dataset looks like:
 | `ROG3` | str | 3-letter country code |
 | `ROL3` | str | 3-letter language code (ISO 639-3) |
 | `Population` | int | Estimated population |
-| `LeastReached` | str | `Y` / `N` — under 2% evangelical |
+| `LeastReached` | str | `Y` / `N` --under 2% evangelical |
 | `JPScale` | int | 1-5 gospel access scale |
 | `PrimaryReligion` | str | Predominant religion |
 | `PercentEvangelical` | float | Evangelical Christian % |
@@ -112,7 +112,7 @@ Each record in the enriched dataset looks like:
 ### Considerations for Using the Data
 
 **Known biases:**
-- Data is collected with a Christian missions focus — religious categorizations reflect that lens
+- Data is collected with a Christian missions focus --religious categorizations reflect that lens
 - Population figures are estimates, not census data
 - Coverage is more detailed for regions with active missions research
 
@@ -129,7 +129,7 @@ Each record in the enriched dataset looks like:
 
 ### Licensing
 
-This packaging is MIT-licensed. The underlying data is provided by Joshua Project for research purposes — see [joshuaproject.net](https://joshuaproject.net) for their terms.
+This packaging is MIT-licensed. The underlying data is provided by Joshua Project for research purposes --see [joshuaproject.net](https://joshuaproject.net) for their terms.
 
 ### Citation
 
@@ -145,4 +145,4 @@ This packaging is MIT-licensed. The underlying data is provided by Joshua Projec
 
 ### Dataset Card Author
 
-[Luke Steuber](https://lukesteuber.com) — [dr.eamer.dev](https://dr.eamer.dev)
+[Luke Steuber](https://lukesteuber.com) --[dr.eamer.dev](https://dr.eamer.dev)

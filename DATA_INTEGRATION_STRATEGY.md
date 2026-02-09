@@ -210,7 +210,7 @@ Functions:
 ✅ **Use Parquet** - Platform standard
 - Include both normalized and enriched versions
 - Multiple dataset configs (default, enriched, unreached)
-- Comprehensive dataset card
+- Full dataset card
 
 ### For Web Apps (Flask/Express APIs)
 ✅ **Use normalized JSON** - Easy querying
