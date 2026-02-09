@@ -1,0 +1,30 @@
+{
+  "people_groups": {
+    "file": "joshua_project_full_dump.json",
+    "records": 16382,
+    "fetched": "2025-12-21",
+    "endpoint": "/v1/people_groups.json",
+    "description": "People groups in countries (PGIC)"
+  },
+  "countries": {
+    "file": "joshua_project_countries.json",
+    "records": 238,
+    "fetched": "2025-12-23",
+    "endpoint": "/v1/countries.json",
+    "description": "Country-level statistics and demographics"
+  },
+  "languages": {
+    "file": "joshua_project_languages.json",
+    "records": 7134,
+    "fetched": "2025-12-23",
+    "endpoint": "/v1/languages.json",
+    "description": "Language details and translation status"
+  },
+  "totals": {
+    "file": "joshua_project_totals.json",
+    "records": 38,
+    "fetched": "2025-12-23",
+    "endpoint": "/v1/totals.json",
+    "description": "Global summary statistics"
+  }
+}

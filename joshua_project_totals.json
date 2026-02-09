@@ -1,0 +1,192 @@
+[
+  {
+    "id": "CntBuddhistPeopGroups",
+    "Value": 635,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntChristianPeopGroups",
+    "Value": 6459,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntContinents",
+    "Value": 7,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntCountries",
+    "Value": 238,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntCountries1040",
+    "Value": 68,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntCountriesLR",
+    "Value": 43,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntCtryChristian",
+    "Value": 165,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntHinduPeopGroups",
+    "Value": 2338,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntLangJesusFilm",
+    "Value": 2043,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntLangNoResources",
+    "Value": 2193,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntLangPortions",
+    "Value": 4066,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntLangRecordings",
+    "Value": 5056,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntMuslimPeopGroups",
+    "Value": 3786,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPCFPG",
+    "Value": 52,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPCLR",
+    "Value": 124,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopCtry",
+    "Value": 16382,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopCtry1040",
+    "Value": 8572,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopCtryFrontier",
+    "Value": 4767,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopCtryGreat50KLR",
+    "Value": 2893,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopCtryLR",
+    "Value": 7124,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopCtryLR1040",
+    "Value": 5910,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopleID1",
+    "Value": 16,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopleID2",
+    "Value": 267,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPeopleID3",
+    "Value": 10415,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPGACFPG",
+    "Value": 3203,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntPGACLR",
+    "Value": 4486,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntRegions",
+    "Value": 12,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntTotalLanguages",
+    "Value": 7132,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "CntWorkersNeeded",
+    "Value": 74431,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "PoplPeopCtry",
+    "Value": 8169807000,
+    "RoundPrecision": 3
+  },
+  {
+    "id": "PoplPeopCtry1040",
+    "Value": 5442072000,
+    "RoundPrecision": 3
+  },
+  {
+    "id": "PoplPeopCtryFrontier",
+    "Value": 1998449000,
+    "RoundPrecision": 3
+  },
+  {
+    "id": "PoplPeopCtryLR",
+    "Value": 3572768000,
+    "RoundPrecision": 3
+  },
+  {
+    "id": "PoplPeopCtryLR1040",
+    "Value": 3451759000,
+    "RoundPrecision": 3
+  },
+  {
+    "id": "PoplPGACFPG",
+    "Value": 1879606000,
+    "RoundPrecision": 3
+  },
+  {
+    "id": "PoplPGACLR",
+    "Value": 3519072000,
+    "RoundPrecision": 3
+  },
+  {
+    "id": "WorldChristianPct",
+    "Value": 30.9313023931891,
+    "RoundPrecision": 0
+  },
+  {
+    "id": "WorldEvangelicalPct",
+    "Value": 7.78874416089203,
+    "RoundPrecision": 0
+  }
+]

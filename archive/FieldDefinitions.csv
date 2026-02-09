@@ -1,0 +1,240 @@
+﻿Joshua Project People Group Data
+
+TableName,FieldName,FieldDescription,FieldType
+jpabsum,AffinityBloc,"Affinity Bloc name",Text
+jpabsum,NbrLR,"Number of least-reached People Groups in Country (PGIC)","Long Integer"
+jpabsum,NbrPC,"Number of People Clusters","Long Integer"
+jpabsum,NbrPCLR,"Number of least-reached People Clusters","Long Integer"
+jpabsum,NbrPGAC,"Number of People Groups Across Countries (PGAC)","Long Integer"
+jpabsum,NbrPGIC,"Number of People Groups In Country (PGIC)","Long Integer"
+jpabsum,PeopleID1,"Affinity Bloc code","Long Integer"
+jpabsum,PercentLR,"Percent least-reached",Single
+jpabsum,PercentPoplLR,"Percent Affinity Bloc population in least-reached peoples",Single
+jpabsum,ROP1,"Registry of Peoples - Affinity Bloc ID",Text
+jpabsum,SumAB,"Affinity Bloc population (summed from people group populations)",Single
+jpabsum,SumABLR,"Affinity Bloc least-reached peoples population",Single
+jpabsum,WorkersNeeded,"Estimated workers needed based on 1:50,000","Long Integer"
+jpcontinentsum,Cnt1040Window,"Count of 10/40 Window countries in continent","Long Integer"
+jpcontinentsum,Continent,"Continent name",Text
+jpcontinentsum,NbrCountries,"Number of countries in continent","Long Integer"
+jpcontinentsum,NbrCountriesLR,"Number of countries considered least-reached in continent","Long Integer"
+jpcontinentsum,NbrLR,"Number of least-reached people groups in continent","Long Integer"
+jpcontinentsum,NbrPGIC,"Number of people groups in continent","Long Integer"
+jpcontinentsum,PercentChristian,"Continent percent Christian Adherents (generated from people group % Christian Adherents)",Double
+jpcontinentsum,PercentEvangelical,"Continent percent  Christian Evangelicals (generated from people group % Evangelicals)",Double
+jpcontinentsum,PercentLR,"Percent of least-reached people groups in continent",Double
+jpcontinentsum,PercentPoplLR,"Percent of groups considered least-reached in continent",Double
+jpcontinentsum,PercentUrbanized,"Continent percent urbanized",Double
+jpcontinentsum,ROG2,"Continent code",Text
+jpcontinentsum,SumContinent,"Population of continent (summed from people group populations)",Double
+jpcontinentsum,SumContinentLR,"Population of least-reached people groups in continent",Double
+jpcontinentsum,WorkersNeeded,"Estimated workers needed based on 1:50,000","Long Integer"
+jpcountries,10_40Window,"Part of 10/40 Window according to Window International Network (WIN)",Text
+jpcountries,CntPeoples,"Count of people groups","Long Integer"
+jpcountries,CntPeoplesLR,"Count of people groups considered unreached","Long Integer"
+jpcountries,Continent,Continent,Text
+jpcountries,Ctry,"Country name",Text
+jpcountries,ISO2,"ISO 2 character code for country",Text
+jpcountries,ISO3,"ISO 3 character code for country",Text
+jpcountries,JPScaleCtry,"Joshua Project Progress Scale for overall country",Text
+jpcountries,OfficialLang,"Official language name for this country",Text
+jpcountries,PercentChristianity,"Percent Christian Adherent from summing people group values",Double
+jpcountries,PercentEvangelical,"Percent Evangelical from summing people group values",Double
+jpcountries,PoplPeoples,"Population of people groups, should be very close to field Population",Double
+jpcountries,PoplPeoplesLR,"Population of people groups considered unreached",Double
+jpcountries,RegionCode,"Ethne Regions","Long Integer"
+jpcountries,RegionName,"Region name",Text
+jpcountries,ReligionPrimary,"Primary Religion for this country",Text
+jpcountries,RLG3Primary,"Code for primary Religion for this country","Long Integer"
+jpcountries,ROG2,"Continent code",Text
+jpcountries,ROG3,"2 digit FIPS  code for country: FIPS PUB 10-4",Text
+jpcountries,ROL3OfficialLanguage,"Code for official language for this country",Text
+jpcountries,WorkersNeeded,"Estimated workers needed based on 1:50,000","Long Integer"
+jplangpeopctry,Language,"Language name",Text
+jplangpeopctry,LanguageDialect,"Dialect name",Text
+jplangpeopctry,LanguageRank,"P = Primary, S = Secondary",Text
+jplangpeopctry,PeopleID3,"People group code","Long Integer"
+jplangpeopctry,ROG3,"Country code",Text
+jplangpeopctry,ROL3,"Language code",Text
+jplangpeopctry,ROL4,"Dialect code",Text
+jplangpeopctry,Speakers,"World speakers",Number
+jplanguages,AudioRecordings,"Global Recordings Network available",Text
+jplanguages,BibleStatus,"Bible translation status: 0=Questionable translation need; 1=None, definite need; 2=Portions: 3=NT; ","Long Integer"
+jplanguages,BibleYear,"Year of complete Bible translation (BibleStatus=4)",Text
+jplanguages,JF,"Jesus Film available",Text
+jplanguages,JPScale,"Joshua Project Scale",Text
+jplanguages,Language,"Language Name",Text
+jplanguages,LeastReached,"Considered Least-reached / unreached based on people group data",Text
+jplanguages,NbrPGICs,"Number of people groups speaking this as primary language","Long Integer"
+jplanguages,NTYear,"Year of NT translation (BibleStatus=3)",Text
+jplanguages,PortionsYear,"Year of portions translation (BibleStatus=2)",Text
+jplanguages,PrimaryReligion,"Largest religion name based on people groups primary religion",Text
+jplanguages,RLG3,"Largest religion code based on people groups primary religion","Long Integer"
+jplanguages,ROL3,"Language Code (ISO and Ethnologue)",Text
+jplanguages,YouVersion_ID,"YouVersion Bible ID",Text
+jppeopleclusters,AffinityBloc,"Affinity Bloc name",Text
+jppeopleclusters,FrontierPC,"People Cluster considered frontier based on summation of people groups",Text
+jppeopleclusters,JPScale,"People Cluster progress scale level","Long Integer"
+jppeopleclusters,LR,"People Cluster considered unreached based on summation of people groups",Text
+jppeopleclusters,NbrFrontier,"People Cluster number of frontier People Groups In Countries (PGIC)","Long Integer"
+jppeopleclusters,NbrLanguages,"People Cluster number of languages spoken","Long Integer"
+jppeopleclusters,NbrLR,"People Cluster number of least-reached People Groups In Countries (PGIC)","Long Integer"
+jppeopleclusters,NbrPGAC,"People Cluster number of People Groups Across Countries (PGAC)","Long Integer"
+jppeopleclusters,NbrPGIC,"People Cluster number of People Groups In Countries (PGIC)","Long Integer"
+jppeopleclusters,PeopleCluster,"People Cluster name",Text
+jppeopleclusters,PeopleID1,"Affinity Bloc code","Long Integer"
+jppeopleclusters,PeopleID2,"People Cluster code","Long Integer"
+jppeopleclusters,PercentChristianPC,"People Cluster percent Christian Adherents based on summation of people group % Christian Adherents",Single
+jppeopleclusters,PercentEvangelicalPC,"People Cluster percent Evangelical based on summation of people group % Evangelical",Single
+jppeopleclusters,PoplLR,"Population of least-reached people groups in People Cluster","Long Integer"
+jppeopleclusters,Population,"People Cluster population based on summation of people group populations","Long Integer"
+jppeopleclusters,PrimaryLanguage,"People Cluster primary language",Text
+jppeopleclusters,PrimaryReligion,"People Cluster primary religion",Text
+jppeopleclusters,RLG3,"Religion code","Long Integer"
+jppeopleclusters,ROL3,"Language code",Text
+jppeopleclusters,ROP1,"Registry of Peoples - Affinity Bloc ID",Text
+jppeopleclusters,ROP2,"Registry of Peoples - People Cluster ID",Text
+jppeopleclusters,WorkersNeeded,"Estimated workers needed based on 1:50,000","Long Integer"
+jppeoples,10_40Window,"Y = in 10/40 Window",Text
+jppeoples,AffinityBloc,"Affinity Bloc for this people group",Text
+jppeoples,BibleStatus,"Bible status","Long Integer"
+jppeoples,Continent,Continent,Text
+jppeoples,CountOfCountries,"Number of countries of residence","Long Integer"
+jppeoples,Ctry,"Country name",Text
+jppeoples,Frontier,"Frontier People Group",Text
+jppeoples,IndigenousCode,"Is this group indigenous to this country",Text
+jppeoples,JPScale,"See http://www.joshuaproject.net/definitions.php",Text
+jppeoples,Latitude,"Latitude value of language polygon or highest density district centroid, for Google maps colored dot",Double
+jppeoples,LeastReached,"Y = Least Reached / unreached.  JPScale < 2.0",Text
+jppeoples,Longitude,"Longitude value of language polygon or highest density district centroid, for Google maps colored do",Double
+jppeoples,PctChristianRange,"Percent Christian Range based off PercentAdherent value",Text
+jppeoples,PctEvangelicalRange,"Percent Evangelical Range based off PercentEvaneglical value",Text
+jppeoples,PeopleCluster,"People cluster",Text
+jppeoples,PeopleID1,"Affinity Bloc code","Long Integer"
+jppeoples,PeopleID2,"People cluster code","Long Integer"
+jppeoples,PeopleID3,"People-Group-Across-Countries ID number","Long Integer"
+jppeoples,PeopNameAcrossCountries,"Name of people group across countries of residence",Text
+jppeoples,PeopNameInCountry,"Name of people group in this country",Text
+jppeoples,PercentAdherents,"% Christian Adherents for this people group",Double
+jppeoples,PercentEvangelical,"% Evangelical for this people group",Double
+jppeoples,Population,"Population in this country","Long Integer"
+jppeoples,PrimaryLanguageName,"Primary language in this country",Text
+jppeoples,PrimaryReligion,"Primary religion in this country",Text
+jppeoples,RegionCode,"Region code for this country","Long Integer"
+jppeoples,RegionName,"Region name",Text
+jppeoples,RLG3,"Primary religion code","Long Integer"
+jppeoples,ROG2,"Registry of Geographic Places continent code",Text
+jppeoples,ROG3,"FIPS-2 country code",Text
+jppeoples,ROL3,"Ethnologue language code, 17th Edition",Text
+jppeoples,ROP1,"Registry of Peoples - Affinity Bloc ID",Text
+jppeoples,ROP2,"Registry of Peoples - People Cluster ID",Text
+jppeoples,ROP3,"Registry of Peoples - People Group ID","Long Integer"
+jppeoples,WorkersNeeded,"Estimated workers needed based on 1:50,000","Long Integer"
+jpregionsum,Cnt1040Window,"Count of countries in 10/40 Window in region","Long Integer"
+jpregionsum,NbrCountries,"Number of countries in region","Long Integer"
+jpregionsum,NbrCountriesLR,"Number of countries considered least-reached in region","Long Integer"
+jpregionsum,NbrLR,"Number of people groups considered least-reached in region","Long Integer"
+jpregionsum,NbrPGIC,"Number of people groups in region","Long Integer"
+jpregionsum,PercentChristian,"Region percent Christian Adherents (generated from people group % Christian Adherents)",Double
+jpregionsum,PercentEvangelical,"Region percent  Christian Evangelicals (generated from people group % Evangelicals)",Double
+jpregionsum,PercentLR,"Percent of people groups considered least-reached in region",Double
+jpregionsum,PercentPoplLR,"Percent of population living in least-reached people groups in region",Double
+jpregionsum,PercentUrbanized,"Region percent urbanized",Double
+jpregionsum,RegionCode,"Region code","Long Integer"
+jpregionsum,RegionName,"Region name",Text
+jpregionsum,SumRegion,"Population of region (summed from people group populations)",Double
+jpregionsum,SumRegionLR,"Population of least-reached people groups in region",Double
+jpregionsum,WorkersNeeded,"Estimated workers needed based on 1:50,000","Long Integer"
+jpreligionsum,NbrLR,"Number of least-reached people groups with this primary religion",Double
+jpreligionsum,NbrReligion,"Number of people groups with this primary religion","Long Integer"
+jpreligionsum,PercentLR,"Percent of least-reached people groups with this primary religion",Double
+jpreligionsum,PercentPoplLR,"Percent of least-reached people group populations with this primary religion",Double
+jpreligionsum,PercentReligion,"Percent of world population with this primary religion",Double
+jpreligionsum,PrimaryReligion,"Primary Religion name",Text
+jpreligionsum,RLG3,"Primary Religion code","Long Integer"
+jpreligionsum,SumReligion,"Population with this primary religion",Double
+jpreligionsum,SumReligionLR,"Sum of least-reached people group populations with this primary religion",Double
+jpreligionsum,WorkersNeeded,"Estimated workers needed based on 1:50,000","Long Integer"
+jpresources,Category,"Resource category",Text
+jpresources,CategoryCode,"Resource category code",Text
+jpresources,ID,"Resource ID",Text
+jpresources,ROL3,"Language code",Text
+jpresources,URL,"Resource URL",Text
+jpresources,WebText,"Resource name (web version)",Text
+jpscalesum,CountofPGIC,"Count of people groups at this progress level","Long Integer"
+jpscalesum,JPScale,"Joshua Project Progress Scale value",Text
+jpscalesum,JPScaleAdherents,"Joshua Project Progress Scale percent Christian Adherents criteria",Text
+jpscalesum,JPScaleDescription,"Joshua Project Progress Scale description",Text
+jpscalesum,JPScaleEvangelicals,"Joshua Project Progress Scale percent Evangelicals criteria",Text
+jpscalesum,JPStage,"Joshua Project Progress Scale name",Text
+jpscalesum,PctGlobalPGIC,"Percent of all people groups at this progress level",Double
+jpscalesum,PctGlobalPopulation,"Joshua Project Progress Scale percent of world population",Double
+jpscalesum,TotalPopulation,"Joshua Project Progress Scale population based on sum of people group populations",Double
+jpsouthasia,Adm1Name,"State / Province name",Text
+jpsouthasia,Adm2Name,"District name",Text
+jpsouthasia,Buddhist,"Buddhist population",Double
+jpsouthasia,Christian,"Christian population",Double
+jpsouthasia,FlashMapIDProvince,"Flash Map State / Province ID",Text
+jpsouthasia,Hindu,"Hindu population",Double
+jpsouthasia,JSMapIDProvince,"JS Map State / Province ID",Text
+jpsouthasia,Muslim,"Muslim population",Double
+jpsouthasia,Other,"Other population",Double
+jpsouthasia,PeopleID3,"People code","Long Integer"
+jpsouthasia,PeopleID3ROG3,"Unique key (concatination of People code and Country code)",Text
+jpsouthasia,Population,"Population in this district",Double
+jpsouthasia,ROG3,"Country code",Text
+jpsouthasia,ROG4,"State / Province code",Text
+jpsouthasia,ROG5,"District code",Text
+jpsouthasia,Sikh,"Sikh population",Double
+jpsouthasiasum,Adm1Name,"State / District name",Text
+jpsouthasiasum,cntTotalPeoples,"Count of people groups","Long Integer"
+jpsouthasiasum,cntTotalROG5,"Count of total districts","Long Integer"
+jpsouthasiasum,FlashMapIDProvince,"Flash Map State / Province ID",Text
+jpsouthasiasum,JSMapIDProvince,"JS Map State / Province ID",Text
+jpsouthasiasum,ROG3,"Country code",Text
+jpsouthasiasum,ROG4,"State / District code",Text
+jpsouthasiasum,SumOfPopulation,"Sum of population of people groups",Double
+jptotals,ID,"Total field",Text
+jptotals,IDValue,"Total value",Double
+jpupgotd,10_40Window,"In the 10/40 Window",Text
+jpupgotd,AudioRecordings,"Global Recordings available",Text
+jpupgotd,Bible,"Bible status",Text
+jpupgotd,BibleYear,"Complete Bible year",Text
+jpupgotd,Continent,"Continent name",Text
+jpupgotd,Ctry,"Country name",Text
+jpupgotd,JF,"Jesus Film available",Text
+jpupgotd,JPScale,"Joshua Project Progress Scale value",Text
+jpupgotd,LRofTheDayDay,"Least-reached of the day day","Long Integer"
+jpupgotd,LRofTheDayMonth,"Least-reached of the day month","Long Integer"
+jpupgotd,LRofTheDaySet,"Least-reached of the day set number","Long Integer"
+jpupgotd,NTOnline,"Is the New Testament online in text and/or audio",Text
+jpupgotd,NTYear,"New Testament year",Text
+jpupgotd,PeopleID3,"People code","Long Integer"
+jpupgotd,PeopleID3ROG3,"Unique key (concatination of People code and Country code)",Text
+jpupgotd,PeopNameInCountry,"People group name in specific country",Text
+jpupgotd,PercentAdherents,"Percent Christian Adherents",Double
+jpupgotd,PercentEvangelical,"Percent Evangelical",Double
+jpupgotd,Population,"People group population in this country","Long Integer"
+jpupgotd,PortionsYear,"Bible Portions year",Text
+jpupgotd,PrimaryLanguageName,"Primary language name",Text
+jpupgotd,PrimaryReligion,"Primary religion name",Text
+jpupgotd,RegionCode,"Region name",Text
+jpupgotd,RegionName,"Region name",Text
+jpupgotd,RLG3,"Religion code","Long Integer"
+jpupgotd,ROG2,"Continent code",Text
+jpupgotd,ROG3,"Country code",Text
+jpupgotd,ROL3,"Language code",Text
+jpupgotd,WorldPopulation,"Global people group population",Double
+
+Bible Translation status:
+0,Unspecified
+1,Translation Needed
+2,Translation Started
+3,Portions
+4,New Testament
+5,Complete Bible
+
+"Joshua Project welcomes corrections / updates to this data.  Please send feedback to:"
+
+Email:,info@joshuaproject.net
+Web:,www.joshuaproject.net

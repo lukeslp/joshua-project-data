@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-01-06T16:08:34.106145",
+  "source_datasets": {
+    "people_groups": 16382,
+    "countries": 238,
+    "languages": 7134,
+    "totals": 38
+  },
+  "enriched_datasets": {
+    "full_enriched": {
+      "records": 16382,
+      "json_file": "joshua_project_enriched.json",
+      "parquet_file": "joshua_project_enriched.parquet"
+    },
+    "unreached_only": {
+      "records": 7124,
+      "json_file": "joshua_project_unreached.json",
+      "parquet_file": "joshua_project_unreached.parquet",
+      "percentage_of_total": 43.49
+    }
+  },
+  "enrichment_details": {
+    "added_fields": [
+      "country_data (9 fields)",
+      "language_data (9 fields)"
+    ],
+    "original_fields_per_record": 107,
+    "enriched_fields_per_record": 109
+  }
+}

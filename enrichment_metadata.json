@@ -1,0 +1,39 @@
+{
+  "enrichment_date": "2026-01-06T16:06:56.385748",
+  "source_datasets": {
+    "joshua_project": "Joshua Project API v1",
+    "natural_earth": "Natural Earth 1:10m Admin 0 Label Points",
+    "glottolog": "Glottolog languages_and_dialects_geo.csv"
+  },
+  "people_groups": {
+    "total": 16382,
+    "with_coordinates": 0,
+    "coverage": "0.0%"
+  },
+  "languages": {
+    "total": 7134,
+    "with_coordinates": 7000,
+    "coverage": "98.1%"
+  },
+  "new_fields": {
+    "people_groups": [
+      "country_latitude",
+      "country_longitude",
+      "continent",
+      "region_un",
+      "coordinate_source"
+    ],
+    "languages": [
+      "latitude",
+      "longitude",
+      "glottocode",
+      "family_name",
+      "family_id",
+      "macroarea",
+      "coordinate_source",
+      "glottolog_match_count"
+    ]
+  },
+  "license": "Compiled dataset - see individual source licenses",
+  "description": "Joshua Project data enriched with geographic coordinates from Natural Earth and Glottolog"
+}

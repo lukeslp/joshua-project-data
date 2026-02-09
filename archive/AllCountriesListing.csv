@@ -1,0 +1,254 @@
+﻿Joshua Project People Group Data
+
+ROG3,ISO3,ISO2,Ctry,PoplPeoples,CntPeoples,CntPeoplesLR,PoplPeoplesLR,JPScaleCtry,ROL3OfficialLanguage,OfficialLang,RLG3Primary,ReligionPrimary,PercentChristianity,PercentEvangelical,10_40Window,ROG2,Continent,RegionCode,RegionName,WorkersNeeded
+AF,AFG,AF,Afghanistan,43595000,58,58,43595000,1,pbt,"Pashto, Southern",6,Islam,0.016497872839152,0.015321397584382,Y,ASI,Asia,5,"Asia, Central",900
+AL,ALB,AL,Albania,2721000,10,2,36000,2,aln,"Albanian, Gheg",6,Islam,33.653240520088,0.58951990788792,Y,EUR,Europe,9,"Europe, Eastern and Eurasia",2
+AG,DZA,DZ,Algeria,47390000,37,34,47311000,1,arb,"Arabic, Standard",6,Islam,0.082836679581891,0.049692712755008,Y,AFR,Africa,6,"Africa, North and Middle East",962
+AQ,ASM,AS,"American Samoa",45000,9,2,800,5,smo,Samoan,1,Christianity,95.424546079322,25.325032529434,N,SOP,Oceania,1,"Australia and Pacific",1
+AN,AND,AD,Andorra,82000,9,2,1200,3,cat,Catalan,1,Christianity,90.595275188043,1.3674286474345,N,EUR,Europe,10,"Europe, Western",2
+AO,AGO,AO,Angola,38792000,60,5,354000,5,por,Portuguese,1,Christianity,91.060787785578,23.272612801625,N,AFR,Africa,7,"Africa, East and Southern",8
+AV,AIA,AI,Anguilla,15000,5,,,5,eng,English,1,Christianity,90.603753795263,34.622367272221,N,NAR,"North America",12,"America, North and Caribbean",
+AC,ATG,AG,"Antigua and Barbuda",92000,4,,,5,eng,English,1,Christianity,92.93917590582,25.145831533438,N,NAR,"North America",12,"America, North and Caribbean",
+AR,ARG,AR,Argentina,45455000,78,2,236000,5,spa,Spanish,1,Christianity,93.040134837522,11.067666945651,N,LAM,"South America",11,"America, Latin",5
+AM,ARM,AM,Armenia,2899000,10,3,60000,4,hye,Armenian,1,Christianity,92.224818744642,9.345574016828,N,EUR,Europe,5,"Asia, Central",3
+AA,ABW,AW,Aruba,106000,9,1,,4,nld,Dutch,1,Christianity,95.517956513554,9.9494531033789,N,NAR,"North America",12,"America, North and Caribbean",
+AS,AUS,AU,Australia,26864000,205,38,1779000,5,eng,English,1,Christianity,62.294922072405,13.716889295181,N,AUS,Australia,1,"Australia and Pacific",50
+AU,AUT,AT,Austria,9063000,46,13,411000,3,deu,"German, Standard",1,Christianity,67.36500597223,0.61375890026505,N,EUR,Europe,10,"Europe, Western",15
+AJ,AZE,AZ,Azerbaijan,10272000,34,25,9950000,1,azj,"Azerbaijani, North",6,Islam,2.2342710888352,0.21416827994896,Y,ASI,Asia,5,"Asia, Central",209
+BF,BHS,BS,Bahamas,398000,7,,,5,eng,English,1,Christianity,94.533712557826,40.130268436278,N,NAR,"North America",12,"America, North and Caribbean",
+BA,BHR,BH,Bahrain,1603000,19,10,1204000,4,arb,"Arabic, Standard",6,Islam,8.6677674481377,2.323810140306,Y,ASI,Asia,6,"Africa, North and Middle East",26
+BG,BGD,BD,Bangladesh,174343000,278,256,172407000,1,ben,Bengali,6,Islam,0.50480463828066,,Y,ASI,Asia,4,"Asia, South",3591
+BB,BRB,BB,Barbados,278000,4,1,3900,5,eng,English,1,Christianity,92.571582804209,34.204887130138,N,NAR,"North America",12,"America, North and Caribbean",1
+BO,BLR,BY,Belarus,8928000,16,5,89000,3,bel,Belarusian,1,Christianity,68.972653956349,1.6736402274911,N,EUR,Europe,9,"Europe, Eastern and Eurasia",5
+BE,BEL,BE,Belgium,11601000,54,25,943000,3,vls,"West Flemish",1,Christianity,64.165545739097,1.4434865263031,N,EUR,Europe,10,"Europe, Western",33
+BH,BLZ,BZ,Belize,408000,13,2,8000,5,eng,English,1,Christianity,86.395177233415,24.162920828686,N,NAR,"North America",11,"America, Latin",2
+BN,BEN,BJ,Benin,14608000,62,11,2688000,4,fra,French,4,"Ethnic Religions",31.435675299805,7.5047505427758,Y,AFR,Africa,8,"Africa, West and Central",57
+BD,BMU,BM,Bermuda,63000,6,,,5,eng,English,1,Christianity,91.681532277134,26.843640372347,N,NAR,"North America",12,"America, North and Caribbean",
+BT,BTN,BT,Bhutan,780000,52,51,778000,1,dzo,Dzongkha,2,Buddhism,0.23921040589033,,Y,ASI,Asia,4,"Asia, South",56
+BL,BOL,BO,Bolivia,12456000,43,2,23000,5,spa,Spanish,1,Christianity,91.758350241412,19.42805506425,N,LAM,"South America",11,"America, Latin",2
+BK,BIH,BA,Bosnia-Herzegovina,3091000,8,3,1590000,2,bos,Bosnian,6,Islam,40.663045303825,0.063692294256387,N,EUR,Europe,9,"Europe, Eastern and Eurasia",34
+BC,BWA,BW,Botswana,2505000,45,1,7000,4,eng,English,1,Christianity,65.441913948587,8.3449459917658,N,AFR,Africa,7,"Africa, East and Southern",1
+BR,BRA,BR,Brazil,212153000,321,52,768000,5,por,Portuguese,1,Christianity,89.920709851728,25.158090716103,N,LAM,"South America",11,"America, Latin",62
+IO,IOT,IO,"British Indian Ocean Territory",3400,2,,,5,eng,English,1,Christianity,79.55943039814,33.830281894798,N,ASI,Asia,4,"Asia, South",
+VI,VGB,VG,"British Virgin Islands",39000,4,,,5,eng,English,1,Christianity,90.793911368015,29.206037251124,N,NAR,"North America",12,"America, North and Caribbean",
+BX,BRN,BN,Brunei,459000,24,9,290000,4,zlm,Malay,6,Islam,8.1962162612715,4.1844940987119,Y,ASI,Asia,2,"Asia, Southeast",12
+BU,BGR,BG,Bulgaria,6617000,16,5,607000,3,bul,Bulgarian,1,Christianity,82.158594676585,1.9979172038083,N,EUR,Europe,9,"Europe, Eastern and Eurasia",14
+UV,BFA,BF,"Burkina Faso",23859000,77,27,5680000,5,fra,French,6,Islam,21.097249705317,10.662722014062,Y,AFR,Africa,8,"Africa, West and Central",126
+BY,BDI,BI,Burundi,14214000,6,1,16000,5,run,Rundi,1,Christianity,93.13298043555,30.493582774424,N,AFR,Africa,7,"Africa, East and Southern",1
+CB,KHM,KH,Cambodia,17753000,38,16,17455000,1,khm,Khmer,2,Buddhism,3.3029881999695,1.3846311056069,Y,ASI,Asia,2,"Asia, Southeast",356
+CM,CMR,CM,Cameroon,29719000,292,18,4539000,4,fra,French,1,Christianity,50.248207975232,8.6437022637027,N,AFR,Africa,8,"Africa, West and Central",98
+CA,CAN,CA,Canada,39933000,243,52,2985000,4,eng,English,1,Christianity,70.604284258657,7.6158419075886,N,NAR,"North America",12,"America, North and Caribbean",83
+CV,CPV,CV,"Cape Verde",510000,5,2,67000,4,por,Portuguese,1,Christianity,84.251431883767,8.2109763238309,N,AFR,Africa,8,"Africa, West and Central",2
+CJ,CYM,KY,"Cayman Islands",75000,9,,,5,eng,English,1,Christianity,81.986813142888,21.420122048713,N,NAR,"North America",12,"America, North and Caribbean",
+CT,CAF,CF,"Central African Republic",5447000,80,7,491000,5,fra,French,1,Christianity,70.989152308308,32.198720046378,N,AFR,Africa,8,"Africa, West and Central",12
+CD,TCD,TD,Chad,20853000,141,81,11755000,4,arb,"Arabic, Standard",6,Islam,25.260023850086,7.3174018778335,Y,AFR,Africa,8,"Africa, West and Central",267
+CI,CHL,CL,Chile,19749000,22,2,37000,5,spa,Spanish,1,Christianity,87.074540528418,23.134633493173,N,LAM,"South America",11,"America, Latin",2
+CH,CHN,CN,China,1397676000,547,442,139759000,4,cmn,"Chinese, Mandarin",7,Non-Religious,9.2133827073397,7.5797079114093,Y,ASI,Asia,3,"Asia, Northeast",3020
+HK,HKG,HK,"China, Hong Kong",7340000,19,8,430000,4,cmn,"Chinese, Mandarin",4,"Ethnic Religions",13.062768481909,6.112576809498,Y,ASI,Asia,3,"Asia, Northeast",13
+MC,MAC,MO,"China, Macau",711000,9,3,630000,2,yue,"Chinese, Yue",4,"Ethnic Religions",7.946051588882,1.9420861666247,Y,ASI,Asia,3,"Asia, Northeast",13
+KT,CXR,CX,"Christmas Island",1600,4,2,700,4,eng,English,6,Islam,14.926349206349,2.2177777777778,N,SOP,Oceania,1,"Australia and Pacific",2
+CK,CCK,CC,"Cocos (Keeling) Islands",600,2,1,400,4,eng,English,6,Islam,18.808011303878,2.6868587576968,N,SOP,Oceania,1,"Australia and Pacific",1
+CO,COL,CO,Colombia,53291000,120,15,213000,5,spa,Spanish,1,Christianity,93.303745909752,10.767272235018,N,LAM,"South America",11,"America, Latin",17
+CN,COM,KM,Comoros,858000,7,5,842000,1,swb,"Comorian, Maore",6,Islam,1.5759788221605,0.65666881797813,N,AFR,Africa,7,"Africa, East and Southern",18
+CG,COD,CD,"Congo, Democratic Republic of",111944000,231,4,791000,5,fra,French,1,Christianity,91.0581136989,19.271307740958,N,AFR,Africa,8,"Africa, West and Central",16
+CF,COG,CG,"Congo, Republic of the",6411000,71,3,55000,5,fra,French,1,Christianity,84.846643314738,14.757637434331,N,AFR,Africa,8,"Africa, West and Central",3
+CW,COK,CK,"Cook Islands",13000,8,1,50,5,eng,English,1,Christianity,97.273857580759,13.504133509213,N,SOP,Oceania,1,"Australia and Pacific",1
+CS,CRI,CR,"Costa Rica",5101000,19,2,18000,5,spa,Spanish,1,Christianity,95.392946645474,18.493950492798,N,NAR,"North America",11,"America, Latin",2
+IV,CIV,CI,"Côte d'Ivoire",32161000,105,32,6923000,5,fra,French,6,Islam,37.127028610609,12.725018968352,N,AFR,Africa,8,"Africa, West and Central",149
+HR,HRV,HR,Croatia,3770000,17,3,31000,3,hrv,Croatian,1,Christianity,92.338593156982,0.4026558026884,N,EUR,Europe,9,"Europe, Eastern and Eurasia",3
+CU,CUB,CU,Cuba,10819000,10,2,67000,5,spa,Spanish,1,Christianity,56.004287280157,11.358065995039,N,NAR,"North America",12,"America, North and Caribbean",2
+UC,CUW,CW,Curacao,182000,16,3,1000,4,nld,Dutch,1,Christianity,85.834925032606,6.89947869697,N,NAR,"North America",12,"America, North and Caribbean",2
+CY,CYP,CY,Cyprus,1330000,21,3,264000,3,ell,Greek,1,Christianity,71.232690429816,1.7319360624499,N,EUR,Europe,10,"Europe, Western",7
+EZ,CZE,CZ,Czechia,10452000,16,2,17000,2,ces,Czech,7,Non-Religious,27.906622711011,0.74341833835643,N,EUR,Europe,9,"Europe, Eastern and Eurasia",2
+DA,DNK,DK,Denmark,5870000,50,19,310000,4,dan,Danish,1,Christianity,81.469048947502,3.5897415173045,N,EUR,Europe,10,"Europe, Western",19
+DJ,DJI,DJ,Djibouti,1146000,7,5,1117000,1,arb,"Arabic, Standard",6,Islam,2.2390846707174,0.077659592762469,Y,AFR,Africa,7,"Africa, East and Southern",24
+DO,DMA,DM,Dominica,63000,7,2,1000,5,eng,English,1,Christianity,91.788668823483,18.122026841081,N,NAR,"North America",12,"America, North and Caribbean",2
+DR,DOM,DO,"Dominican Republic",11400000,10,1,32000,5,spa,Spanish,1,Christianity,93.573670335247,10.90740256588,N,NAR,"North America",12,"America, North and Caribbean",1
+EC,ECU,EC,Ecuador,18169000,33,1,50000,5,spa,Spanish,1,Christianity,93.451478446539,10.610093761378,N,LAM,"South America",11,"America, Latin",1
+EG,EGY,EG,Egypt,117980000,45,32,82581000,4,arb,"Arabic, Standard",6,Islam,9.5423494524995,2.4445947895925,Y,AFR,Africa,6,"Africa, North and Middle East",1659
+ES,SLV,SV,"El Salvador",6283000,7,1,26000,5,spa,Spanish,1,Christianity,94.110790046621,45.237356714973,N,NAR,"North America",11,"America, Latin",1
+EK,GNQ,GQ,"Equatorial Guinea",1877000,16,1,39000,4,spa,Spanish,1,Christianity,89.409297536722,4.7766176929991,N,AFR,Africa,8,"Africa, West and Central",1
+ER,ERI,ER,Eritrea,3535000,15,10,1591000,4,tir,Tigrigna,6,Islam,45.958784477648,2.405475582197,Y,AFR,Africa,7,"Africa, East and Southern",35
+EN,EST,EE,Estonia,1295000,10,,,4,ekk,"Estonian, Standard",7,Non-Religious,47.452148281352,4.7251747074177,N,EUR,Europe,9,"Europe, Eastern and Eurasia",
+WZ,SWZ,SZ,Eswatini,1222000,9,2,6700,5,ssw,Swati,1,Christianity,83.690090953407,20.722242558373,N,AFR,Africa,7,"Africa, East and Southern",2
+ET,ETH,ET,Ethiopia,134440000,120,32,30667000,5,amh,Amharic,1,Christianity,58.156069745362,17.898818016202,Y,AFR,Africa,7,"Africa, East and Southern",622
+FK,FLK,FK,"Falkland Islands",2800,2,,,4,eng,English,1,Christianity,64.064606741573,8.9635855776352,N,LAM,"South America",11,"America, Latin",
+FO,FRO,FO,"Faroe Islands",55000,2,,,5,dan,Danish,1,Christianity,90.921529506516,33.205121129312,N,EUR,Europe,10,"Europe, Western",
+FJ,FJI,FJ,Fiji,912000,31,1,4700,5,eng,English,1,Christianity,64.237832893162,26.481553015017,N,SOP,Oceania,1,"Australia and Pacific",1
+FI,FIN,FI,Finland,5511000,26,9,104000,5,fin,Finnish,1,Christianity,80.384401568585,10.235925308609,N,EUR,Europe,10,"Europe, Western",9
+FR,FRA,FR,France,66551000,116,39,4591000,3,fra,French,1,Christianity,62.153365076387,1.25458987074,N,EUR,Europe,10,"Europe, Western",104
+FG,GUF,GF,"French Guiana",303000,21,1,4700,4,fra,French,1,Christianity,80.690905307109,5.7808888418328,N,LAM,"South America",11,"America, Latin",1
+FP,PYF,PF,"French Polynesia",269000,12,,,4,fra,French,1,Christianity,89.380902904047,7.8657532857176,N,SOP,Oceania,1,"Australia and Pacific",
+GB,GAB,GA,Gabon,2535000,52,7,84000,5,fra,French,1,Christianity,73.350169180085,10.775136086625,N,AFR,Africa,8,"Africa, West and Central",7
+GA,GMB,GM,Gambia,2772000,26,14,2354000,1,eng,English,6,Islam,3.4755653379847,0.89067305015235,Y,AFR,Africa,8,"Africa, West and Central",53
+GG,GEO,GE,Georgia,3718000,27,12,288000,3,kat,Georgian,1,Christianity,80.148468262895,1.3900848356138,N,EUR,Europe,9,"Europe, Eastern and Eurasia",16
+GM,DEU,DE,Germany,83991000,104,38,5956000,4,deu,"German, Standard",1,Christianity,61.545217596235,2.1274888081985,N,EUR,Europe,10,"Europe, Western",134
+GH,GHA,GH,Ghana,34891000,108,16,1869000,5,eng,English,1,Christianity,61.967556260874,25.93385795725,N,AFR,Africa,8,"Africa, West and Central",46
+GI,GIB,GI,Gibraltar,39000,6,3,3700,4,eng,English,1,Christianity,79.767660910518,2.187036227606,N,EUR,Europe,10,"Europe, Western",3
+GR,GRC,GR,Greece,9851000,46,13,300000,3,ell,Greek,1,Christianity,87.937600149676,0.48685958208102,N,EUR,Europe,9,"Europe, Eastern and Eurasia",14
+GL,GRL,GL,Greenland,55000,3,,,4,kal,Greenlandic,1,Christianity,95.291735129806,7.681409879752,N,NAR,"North America",12,"America, North and Caribbean",
+GJ,GRD,GD,Grenada,112000,5,,,5,eng,English,1,Christianity,92.32097236821,18.872957902051,N,NAR,"North America",12,"America, North and Caribbean",
+GP,GLP,GP,Guadeloupe,363000,6,1,,4,fra,French,1,Christianity,95.370589257299,4.8044255301544,N,NAR,"North America",12,"America, North and Caribbean",
+GQ,GUM,GU,Guam,163000,14,1,2400,5,eng,English,1,Christianity,92.491027351363,16.056060149636,N,SOP,Oceania,1,"Australia and Pacific",1
+GT,GTM,GT,Guatemala,18516000,57,2,51000,5,spa,Spanish,1,Christianity,95.052067078524,25.089868442008,N,NAR,"North America",11,"America, Latin",2
+GV,GIN,GN,Guinea,14957000,42,28,13004000,1,fra,French,6,Islam,4.1475495050089,0.6760141535836,Y,AFR,Africa,8,"Africa, West and Central",271
+PU,GNB,GW,Guinea-Bissau,2193000,29,16,1059000,4,por,Portuguese,6,Islam,11.706646346468,2.0613370814556,Y,AFR,Africa,8,"Africa, West and Central",30
+GY,GUY,GY,Guyana,813000,17,2,6300,5,eng,English,1,Christianity,40.052438077987,13.2120834137,N,LAM,"South America",11,"America, Latin",2
+HA,HTI,HT,Haiti,11789000,5,1,40000,5,fra,French,1,Christianity,94.524003362086,17.652492599085,N,NAR,"North America",12,"America, North and Caribbean",1
+HO,HND,HN,Honduras,10899000,19,1,40000,5,spa,Spanish,1,Christianity,95.360469747355,27.618395489946,N,NAR,"North America",11,"America, Latin",1
+HU,HUN,HU,Hungary,9524000,17,4,79000,4,hun,Hungarian,1,Christianity,87.008573823822,3.0538073838558,N,EUR,Europe,9,"Europe, Eastern and Eurasia",4
+IC,ISL,IS,Iceland,382000,6,1,1700,4,isl,Icelandic,1,Christianity,90.327194956755,4.3944726993107,N,EUR,Europe,10,"Europe, Western",1
+IN,IND,IN,India,1453714000,2262,2032,1394848000,1,hin,Hindi,5,Hinduism,1.9723787688575,,Y,ASI,Asia,4,"Asia, South",28596
+ID,IDN,ID,Indonesia,284202000,788,234,200484000,4,ind,Indonesian,6,Islam,11.375747867707,3.2541879035488,Y,ASI,Asia,2,"Asia, Southeast",4106
+IR,IRN,IR,Iran,92310000,91,85,91830000,1,pes,"Persian, Iranian",6,Islam,1.7758764951182,1.1998186201441,Y,ASI,Asia,5,"Asia, Central",1868
+IZ,IRQ,IQ,Iraq,46690000,33,27,45995000,1,arb,"Arabic, Standard",6,Islam,0.91426354782943,0.21921306345715,Y,ASI,Asia,6,"Africa, North and Middle East",923
+EI,IRL,IE,Ireland,5189000,36,5,57000,3,eng,English,1,Christianity,90.477230555901,1.6637580209029,N,EUR,Europe,10,"Europe, Western",5
+IM,IMN,IM,"Isle of Man",81000,2,,,4,eng,English,1,Christianity,99.162549084777,7.7906372711942,N,EUR,Europe,10,"Europe, Western",
+IS,ISR,IL,Israel,9460000,47,40,9169000,1,heb,Hebrew,4,"Ethnic Religions",1.4233258654662,0.70162010644136,Y,ASI,Asia,6,"Africa, North and Middle East",200
+IT,ITA,IT,Italy,59062000,102,22,1542000,3,ita,Italian,1,Christianity,81.866606322705,1.4801719234641,N,EUR,Europe,10,"Europe, Western",40
+JM,JAM,JM,Jamaica,2815000,9,1,7500,5,eng,English,1,Christianity,81.122504645975,29.829027308508,N,NAR,"North America",12,"America, North and Caribbean",1
+JA,JPN,JP,Japan,122829000,43,28,120571000,1,jpn,Japanese,2,Buddhism,1.8569865034704,0.44646250126173,Y,ASI,Asia,3,"Asia, Northeast",2424
+JO,JOR,JO,Jordan,11455000,26,20,10658000,1,arb,"Arabic, Standard",6,Islam,2.2315003248031,0.27482207679635,Y,ASI,Asia,6,"Africa, North and Middle East",218
+KZ,KAZ,KZ,Kazakhstan,20670000,53,27,16533000,2,kaz,Kazakh,6,Islam,11.763239046453,0.54359799547943,Y,ASI,Asia,5,"Asia, Central",342
+KE,KEN,KE,Kenya,57389000,105,29,5407000,5,eng,English,1,Christianity,80.260996700658,45.778179032732,N,AFR,Africa,7,"Africa, East and Southern",118
+KR,KIR,KI,"Kiribati (Gilbert)",131000,4,,,4,eng,English,1,Christianity,98.409152651018,8.5822031810507,N,SOP,Oceania,1,"Australia and Pacific",
+KN,PRK,KP,"Korea, North",26493000,4,2,26300000,1,kor,Korean,7,Non-Religious,1.6574525963404,1.5803171178543,Y,ASI,Asia,3,"Asia, Northeast",526
+KS,KOR,KR,"Korea, South",51602000,30,13,488000,5,kor,Korean,7,Non-Religious,29.948420141653,16.282003143986,N,ASI,Asia,3,"Asia, Northeast",15
+KV,XKV,XK,Kosovo,1628000,9,6,1581000,1,aln,"Albanian, Gheg",6,Islam,4.0091331503215,0.20040655649109,N,EUR,Europe,9,"Europe, Eastern and Eurasia",35
+KU,KWT,KW,Kuwait,4925000,31,17,3420000,2,arb,"Arabic, Standard",6,Islam,10.456210697098,1.6087808127848,Y,ASI,Asia,6,"Africa, North and Middle East",73
+KG,KGZ,KG,Kyrgyzstan,7206000,28,22,6781000,1,kir,Kyrgyz,6,Islam,3.684467228685,0.30492568031557,Y,ASI,Asia,5,"Asia, Central",146
+LA,LAO,LA,Laos,7758000,184,142,2225000,4,lao,Lao,2,Buddhism,3.6294631007911,2.5425047526641,Y,ASI,Asia,2,"Asia, Southeast",154
+LG,LVA,LV,Latvia,1796000,10,1,2400,4,lvs,"Latvian, Standard",1,Christianity,60.122876084858,7.6119913149354,N,EUR,Europe,9,"Europe, Eastern and Eurasia",1
+LE,LBN,LB,Lebanon,5782000,26,12,2991000,2,arb,"Arabic, Standard",6,Islam,31.518599065986,0.71609942401596,Y,ASI,Asia,6,"Africa, North and Middle East",64
+LT,LSO,LS,Lesotho,2315000,8,1,13000,5,eng,English,1,Christianity,89.251867822235,13.010712943324,N,AFR,Africa,7,"Africa, East and Southern",1
+LI,LBR,LR,Liberia,5651000,37,6,673000,5,eng,English,4,"Ethnic Religions",39.781534821724,11.73453021691,N,AFR,Africa,8,"Africa, West and Central",14
+LY,LBY,LY,Libya,7373000,45,34,6499000,1,arb,"Arabic, Standard",6,Islam,2.4217160044064,0.17350550628307,Y,AFR,Africa,6,"Africa, North and Middle East",139
+LS,LIE,LI,Liechtenstein,40000,8,2,1600,3,deu,"German, Standard",1,Christianity,77.101611967407,0.55981685628516,N,EUR,Europe,10,"Europe, Western",2
+LH,LTU,LT,Lithuania,2790000,9,3,11000,3,lit,Lithuanian,1,Christianity,84.697430782442,1.3927953977395,N,EUR,Europe,9,"Europe, Eastern and Eurasia",3
+LU,LUX,LU,Luxembourg,643000,15,1,700,3,ltz,Luxembourgish,1,Christianity,80.661309926806,0.99480939736891,N,EUR,Europe,10,"Europe, Western",1
+MA,MDG,MG,Madagascar,32441000,40,11,632000,4,plt,"Malagasy, Merina",1,Christianity,49.419827397068,6.116287253214,N,AFR,Africa,7,"Africa, East and Southern",18
+MI,MWI,MW,Malawi,21970000,24,5,2868000,5,eng,English,1,Christianity,73.748390168966,17.056081048087,N,AFR,Africa,7,"Africa, East and Southern",59
+MY,MYS,MY,Malaysia,35782000,183,78,18066000,4,zlm,Malay,6,Islam,9.7404373735282,3.5820585166669,Y,ASI,Asia,2,"Asia, Southeast",409
+MV,MDV,MV,Maldives,508000,4,4,508000,1,div,Maldivian,6,Islam,0.02788689974892,0.0089077968689739,Y,ASI,Asia,4,"Asia, South",13
+ML,MLI,ML,Mali,24821000,72,43,22703000,1,fra,French,6,Islam,2.7813857753412,0.67102808212664,Y,AFR,Africa,8,"Africa, West and Central",465
+MT,MLT,MT,Malta,526000,4,1,100,3,mlt,Maltese,1,Christianity,96.756300618008,1.551452025103,N,EUR,Europe,10,"Europe, Western",1
+RM,MHL,MH,"Marshall Islands",34000,6,2,400,5,eng,English,1,Christianity,94.627188993821,53.441720938416,N,SOP,Oceania,1,"Australia and Pacific",2
+MB,MTQ,MQ,Martinique,325000,5,1,,4,fra,French,1,Christianity,95.020630628693,6.9979510999069,N,NAR,"North America",12,"America, North and Caribbean",
+MR,MRT,MR,Mauritania,5223000,17,15,5210000,1,arb,"Arabic, Standard",6,Islam,0.20841334260814,0.080143122655534,Y,AFR,Africa,8,"Africa, West and Central",112
+MP,MUS,MU,Mauritius,1224000,12,5,104000,4,eng,English,5,Hinduism,32.559002414616,9.8022849614002,N,AFR,Africa,7,"Africa, East and Southern",5
+MF,MYT,YT,Mayotte,324000,8,6,319000,1,fra,French,6,Islam,1.6255841965791,0.09305054842042,N,AFR,Africa,7,"Africa, East and Southern",10
+MX,MEX,MX,Mexico,131338000,333,4,359000,5,spa,Spanish,1,Christianity,95.125116939794,10.483564173041,N,NAR,"North America",11,"America, Latin",8
+FM,FSM,FM,"Micronesia, Federated States",111000,25,2,1400,5,eng,English,1,Christianity,94.85610762605,22.778819807861,N,SOP,Oceania,1,"Australia and Pacific",2
+MD,MDA,MD,Moldova,2947000,12,2,9400,4,ron,Romanian,1,Christianity,76.381268398036,4.5384726462083,N,EUR,Europe,9,"Europe, Eastern and Eurasia",2
+MN,MCO,MC,Monaco,37000,14,2,700,3,fra,French,1,Christianity,82.29394277625,1.2725081134088,N,EUR,Europe,10,"Europe, Western",1
+MG,MNG,MN,Mongolia,3446000,25,17,3220000,1,khk,"Mongolian, Halh",2,Buddhism,2.3303451354397,1.3311539220695,Y,ASI,Asia,3,"Asia, Northeast",73
+MJ,MNE,ME,Montenegro,614000,12,3,58000,3,srp,Serbian,1,Christianity,73.915533366584,0.27267825600151,N,EUR,Europe,9,"Europe, Eastern and Eurasia",3
+MH,MSR,MS,Montserrat,3900,2,,,5,eng,English,1,Christianity,94.929381443299,27.586141980023,N,NAR,"North America",12,"America, North and Caribbean",
+MO,MAR,MA,Morocco,38103000,29,27,38090000,1,arb,"Arabic, Standard",6,Islam,0.18836065771088,0.10727571474299,Y,AFR,Africa,6,"Africa, North and Middle East",767
+MZ,MOZ,MZ,Mozambique,35294000,52,12,3852000,5,por,Portuguese,1,Christianity,45.843847434597,10.7612767443,N,AFR,Africa,7,"Africa, East and Southern",77
+BM,MMR,MM,"Myanmar (Burma)",54553000,218,59,45405000,4,mya,Burmese,2,Buddhism,8.7409547535155,5.1984265615792,Y,ASI,Asia,2,"Asia, Southeast",929
+WA,NAM,NA,Namibia,3034000,33,1,8300,5,eng,English,1,Christianity,88.292625582263,12.490326101197,N,AFR,Africa,7,"Africa, East and Southern",1
+NR,NRU,NR,Nauru,11000,7,,,5,eng,English,1,Christianity,85.389223123202,12.615533557872,N,SOP,Oceania,1,"Australia and Pacific",
+NP,NPL,NP,Nepal,29218000,195,184,26013000,1,npi,Nepali,5,Hinduism,1.4435514677789,,Y,ASI,Asia,4,"Asia, South",628
+NL,NLD,NL,Netherlands,18209000,71,20,1745000,4,nld,Dutch,1,Christianity,46.740272396328,4.0029961656266,N,EUR,Europe,10,"Europe, Western",40
+NC,NCL,NC,"New Caledonia",286000,43,,,4,fra,French,1,Christianity,78.374823008695,6.210480033787,N,SOP,Oceania,1,"Australia and Pacific",
+NZ,NZL,NZ,"New Zealand",5157000,60,19,443000,5,eng,English,1,Christianity,50.786935539703,17.81644209218,N,SOP,Oceania,1,"Australia and Pacific",22
+NU,NIC,NI,Nicaragua,6895000,16,1,6200,5,spa,Spanish,1,Christianity,96.085514557294,43.348310787134,N,NAR,"North America",11,"America, Latin",1
+NG,NER,NE,Niger,27505000,36,30,27011000,1,fra,French,6,Islam,1.6248082859357,1.0191695347763,Y,AFR,Africa,8,"Africa, West and Central",544
+NI,NGA,NG,Nigeria,237239000,535,49,72318000,5,eng,English,1,Christianity,51.589354736277,26.822768057448,Y,AFR,Africa,8,"Africa, West and Central",1466
+NE,NIU,NU,Niue,1900,2,,,4,eng,English,1,Christianity,95.91908713693,5.3361108559569,N,SOP,Oceania,1,"Australia and Pacific",
+NF,NFK,NF,"Norfolk Island",1700,3,,,5,eng,English,1,Christianity,72.463898916967,20.307460890493,N,SOP,Oceania,1,"Australia and Pacific",
+MK,MKD,MK,"North Macedonia",1793000,16,9,557000,3,mkd,Macedonian,1,Christianity,61.824386516062,0.15990552298302,N,EUR,Europe,9,"Europe, Eastern and Eurasia",17
+CQ,MNP,MP,"Northern Mariana Islands",43000,10,1,700,5,eng,English,1,Christianity,74.969329312481,17.10964232795,N,SOP,Oceania,1,"Australia and Pacific",1
+NO,NOR,NO,Norway,5520000,53,17,314000,4,nor,Norwegian,1,Christianity,86.411123250174,7.9183141805933,N,EUR,Europe,10,"Europe, Western",17
+MU,OMN,OM,Oman,5452000,35,27,4855000,1,arb,"Arabic, Standard",6,Islam,2.8654007309348,0.71563002970579,Y,ASI,Asia,6,"Africa, North and Middle East",107
+PK,PAK,PK,Pakistan,253227000,775,767,250751000,1,urd,Urdu,6,Islam,0.9858495251666,,Y,ASI,Asia,4,"Asia, South",5259
+PS,PLW,PW,Palau,18000,7,1,1100,5,eng,English,1,Christianity,89.669993117306,20.683364994464,N,SOP,Oceania,1,"Australia and Pacific",1
+PM,PAN,PA,Panama,4542000,26,2,20000,5,spa,Spanish,1,Christianity,88.071747120984,21.68887706548,N,NAR,"North America",11,"America, Latin",2
+PP,PNG,PG,"Papua New Guinea",10607000,883,1,30000,5,eng,English,1,Christianity,94.29812051762,23.387234902789,N,AUS,Australia,1,"Australia and Pacific",1
+PA,PRY,PY,Paraguay,6934000,36,6,28000,4,spa,Spanish,1,Christianity,94.606308435745,8.0555754767491,N,LAM,"South America",11,"America, Latin",6
+PE,PER,PE,Peru,34323000,103,15,208000,5,spa,Spanish,1,Christianity,94.072133220896,14.487751747348,N,LAM,"South America",11,"America, Latin",16
+RP,PHL,PH,Philippines,116164000,200,28,6332000,5,tgl,Tagalog,1,Christianity,88.571827013423,11.359479046379,N,ASI,Asia,2,"Asia, Southeast",137
+PC,PCN,PN,"Pitcairn Islands",50,1,,,4,eng,English,1,Christianity,96,10,N,SOP,Oceania,1,"Australia and Pacific",
+PL,POL,PL,Poland,38007000,24,4,52000,3,pol,Polish,1,Christianity,89.632095679023,0.31116349849262,N,EUR,Europe,9,"Europe, Eastern and Eurasia",4
+PO,PRT,PT,Portugal,10324000,35,5,121000,4,por,Portuguese,1,Christianity,92.594564470413,3.5221208409734,N,EUR,Europe,10,"Europe, Western",6
+RQ,PRI,PR,"Puerto Rico",3182000,9,2,12000,5,spa,Spanish,1,Christianity,94.434593234283,33.036055172,N,NAR,"North America",12,"America, North and Caribbean",2
+QA,QAT,QA,Qatar,3081000,25,14,2654000,2,arb,"Arabic, Standard",6,Islam,6.4168279048544,0.95866430550811,Y,ASI,Asia,6,"Africa, North and Middle East",54
+RE,REU,RE,Reunion,857000,15,5,55000,4,fra,French,1,Christianity,86.304196767152,6.9324541338121,N,AFR,Africa,7,"Africa, East and Southern",5
+RO,ROU,RO,Romania,18724000,21,6,87000,4,ron,Romanian,1,Christianity,93.639825309291,6.3914995053846,N,EUR,Europe,9,"Europe, Eastern and Eurasia",6
+RS,RUS,RU,Russia,143850000,171,115,17720000,3,rus,Russian,1,Christianity,57.029700576731,1.420732380504,N,ASI,Asia,9,"Europe, Eastern and Eurasia",413
+RW,RWA,RW,Rwanda,14351000,8,2,40000,5,kin,Kinyarwanda,1,Christianity,90.202314503919,26.7928373773,N,AFR,Africa,7,"Africa, East and Southern",2
+SH,SHN,SH,"Saint Helena",4800,1,,,4,eng,English,1,Christianity,95,8.8,N,AFR,Africa,7,"Africa, East and Southern",
+SC,KNA,KN,"Saint Kitts and Nevis",46000,4,1,,5,eng,English,1,Christianity,92.528501452165,22.124790844857,N,NAR,"North America",12,"America, North and Caribbean",
+ST,LCA,LC,"Saint Lucia",175000,5,1,,5,eng,English,1,Christianity,94.804125360683,18.632373964963,N,NAR,"North America",12,"America, North and Caribbean",
+SB,SPM,PM,"Saint Pierre and Miquelon",5800,2,,,3,fra,French,1,Christianity,96.479958890031,0.63369304556355,N,NAR,"North America",12,"America, North and Caribbean",
+WS,WSM,WS,Samoa,216000,6,2,2100,5,smo,Samoan,1,Christianity,95.241898893391,18.497427033043,N,SOP,Oceania,1,"Australia and Pacific",2
+SM,SMR,SM,"San Marino",33000,2,1,,3,ita,Italian,1,Christianity,84.002902446166,0.074069739732055,N,EUR,Europe,10,"Europe, Western",
+TP,STP,ST,"São Tomé and Príncipe",228000,6,1,1000,4,por,Portuguese,1,Christianity,86.172519540089,5.917739814408,N,AFR,Africa,8,"Africa, West and Central",1
+SA,SAU,SA,"Saudi Arabia",34435000,57,43,31108000,1,arb,"Arabic, Standard",6,Islam,3.6920941811422,0.52317864243651,Y,ASI,Asia,6,"Africa, North and Middle East",631
+SG,SEN,SN,Senegal,18689000,54,28,15303000,1,fra,French,6,Islam,4.5456900804239,0.18826716444847,Y,AFR,Africa,8,"Africa, West and Central",314
+RI,SRB,RS,Serbia,6560000,27,6,168000,3,srp,Serbian,1,Christianity,78.124101839497,0.71328805794689,N,EUR,Europe,9,"Europe, Eastern and Eurasia",8
+SE,SYC,SC,Seychelles,129000,4,,,4,crs,"Seychelles French Creole",1,Christianity,96.179852091231,7.0230384068482,N,AFR,Africa,7,"Africa, East and Southern",
+SL,SLE,SL,"Sierra Leone",8767000,27,12,1669000,4,eng,English,6,Islam,12.778984933523,4.94806195912,N,AFR,Africa,8,"Africa, West and Central",36
+SN,SGP,SG,Singapore,5806000,40,17,1019000,4,cmn,"Chinese, Mandarin",2,Buddhism,12.871017002944,7.1251824073657,N,ASI,Asia,2,"Asia, Southeast",29
+NN,SXM,SX,"Sint Maarten",43000,8,,,4,eng,English,1,Christianity,88.561019120147,7.9470597824821,N,NAR,"North America",12,"America, North and Caribbean",
+LO,SVK,SK,Slovakia,5403000,15,2,18000,3,slk,Slovak,1,Christianity,92.486772879434,1.4560101002986,N,EUR,Europe,9,"Europe, Eastern and Eurasia",2
+SI,SVN,SI,Slovenia,2080000,12,1,90000,3,slv,Slovene,1,Christianity,53.969112701183,0.20672165399578,N,EUR,Europe,9,"Europe, Eastern and Eurasia",2
+BP,SLB,SB,"Solomon Islands",814000,74,1,3000,5,eng,English,1,Christianity,95.40320238694,31.323433895135,N,SOP,Oceania,1,"Australia and Pacific",1
+SO,SOM,SO,Somalia,19468000,22,20,19407000,1,som,Somali,6,Islam,0.47906572893526,0.14544794856861,Y,AFR,Africa,7,"Africa, East and Southern",396
+SF,ZAF,ZA,"South Africa",64347000,62,8,1284000,5,eng,English,1,Christianity,76.804479299365,21.104616980983,N,AFR,Africa,7,"Africa, East and Southern",27
+OD,SSD,SS,"South Sudan",12106000,80,6,682000,5,eng,English,1,Christianity,63.700120480738,19.81730380084,N,AFR,Africa,7,"Africa, East and Southern",16
+SP,ESP,ES,Spain,47786000,77,11,1242000,3,spa,Spanish,1,Christianity,76.990786544628,1.598750617263,N,EUR,Europe,10,"Europe, Western",30
+CE,LKA,LK,"Sri Lanka",23006000,139,55,3652000,2,sin,Sinhala,2,Buddhism,7.5930306172887,,Y,ASI,Asia,4,"Asia, South",106
+VC,VCT,VC,"St Vincent and Grenadines",96000,6,,,5,eng,English,1,Christianity,89.15497080291,41.484004658942,N,NAR,"North America",12,"America, North and Caribbean",
+SU,SDN,SD,Sudan,51216000,198,168,48612000,1,arb,"Arabic, Standard",6,Islam,2.2627202055663,0.48352640178419,Y,AFR,Africa,7,"Africa, East and Southern",1034
+NS,SUR,SR,Suriname,622000,22,2,33000,5,nld,Dutch,1,Christianity,48.612238477834,17.320382647573,N,LAM,"South America",11,"America, Latin",2
+SV,SJM,SJ,Svalbard,2500,2,,,4,nor,Norwegian,1,Christianity,90.903807615231,6.641122244489,N,EUR,Europe,10,"Europe, Western",
+SW,SWE,SE,Sweden,10552000,74,24,578000,4,swe,Swedish,1,Christianity,54.842232525091,5.6689381115349,N,EUR,Europe,10,"Europe, Western",25
+SZ,CHE,CH,Switzerland,8849000,58,17,326000,4,gsw,"German, Swiss",1,Christianity,75.632198655083,3.9558389546282,N,EUR,Europe,10,"Europe, Western",18
+SY,SYR,SY,Syria,25300000,30,19,8967000,2,arb,"Arabic, Standard",6,Islam,5.3567862820684,0.17246219587861,Y,ASI,Asia,6,"Africa, North and Middle East",184
+TW,TWN,TW,Taiwan,23049000,32,8,4353000,4,cmn,"Chinese, Mandarin",4,"Ethnic Religions",6.373509229752,3.325295819292,Y,ASI,Asia,3,"Asia, Northeast",91
+TI,TJK,TJ,Tajikistan,10734000,29,25,10682000,1,tgk,Tajik,6,Islam,0.39644587240147,0.071762166762154,Y,ASI,Asia,5,"Asia, Central",229
+TZ,TZA,TZ,Tanzania,70041000,154,24,6340000,5,swh,Swahili,1,Christianity,50.457469860602,11.044554987714,N,AFR,Africa,7,"Africa, East and Southern",131
+TH,THA,TH,Thailand,71255000,110,73,61267000,1,tha,Thai,2,Buddhism,1.8382541201861,0.76148621123182,Y,ASI,Asia,2,"Asia, Southeast",1262
+TT,TLS,TL,Timor-Leste,1379000,21,1,6000,4,por,Portuguese,1,Christianity,90.667703413759,2.4893315941981,Y,ASI,Asia,2,"Asia, Southeast",1
+TO,TGO,TG,Togo,9584000,54,9,757000,5,fra,French,1,Christianity,45.200361958933,11.09538130643,N,AFR,Africa,8,"Africa, West and Central",18
+TL,TKL,TK,Tokelau,2900,1,,,4,tkl,Tokelauan,1,Christianity,100,3.4,N,SOP,Oceania,1,"Australia and Pacific",
+TN,TON,TO,Tonga,100000,4,,,5,ton,Tongan,1,Christianity,95.861497534778,15.777554979948,N,SOP,Oceania,1,"Australia and Pacific",
+TD,TTO,TT,"Trinidad and Tobago",1463000,9,,,5,eng,English,1,Christianity,66.591956463391,23.907184375309,N,NAR,"North America",12,"America, North and Caribbean",
+TS,TUN,TN,Tunisia,12316000,18,16,12220000,1,arb,"Arabic, Standard",6,Islam,0.45631347459133,0.029827960887887,Y,AFR,Africa,6,"Africa, North and Middle East",254
+TU,TUR,TR,"Türkiye (Turkey)",87515000,85,61,86812000,1,tur,Turkish,6,Islam,0.6452488153655,0.043780415959696,Y,ASI,Asia,5,"Asia, Central",1759
+TX,TKM,TM,Turkmenistan,7506000,28,20,7144000,1,tuk,Turkmen,6,Islam,3.7243695898205,0.10404998331358,Y,ASI,Asia,5,"Asia, Central",151
+TK,TCA,TC,"Turks and Caicos Islands",45000,3,,,5,eng,English,1,Christianity,90.68446644859,32.196585182566,N,NAR,"North America",12,"America, North and Caribbean",
+TV,TUV,TV,Tuvalu,8700,2,,,5,tvl,Tuvaluan,1,Christianity,98,22.942242130368,N,SOP,Oceania,1,"Australia and Pacific",
+UG,UGA,UG,Uganda,51075000,66,2,1071000,5,eng,English,1,Christianity,84.342293565099,34.14466860129,N,AFR,Africa,7,"Africa, East and Southern",22
+UP,UKR,UA,Ukraine,38516000,56,16,450000,4,ukr,Ukrainian,1,Christianity,72.549338939272,3.6566611584598,N,EUR,Europe,9,"Europe, Eastern and Eurasia",20
+AE,ARE,AE,"United Arab Emirates",11239000,44,36,8436000,2,arb,"Arabic, Standard",6,Islam,6.643436604654,1.4523117100436,Y,ASI,Asia,6,"Africa, North and Middle East",174
+UK,GBR,GB,"United Kingdom",69417000,122,40,6221000,4,eng,English,1,Christianity,55.603264537673,7.5087893890687,N,EUR,Europe,10,"Europe, Western",140
+US,USA,US,"United States",345733000,496,90,14792000,5,eng,English,1,Christianity,76.535553387099,26.581540973029,N,NAR,"North America",12,"America, North and Caribbean",328
+UY,URY,UY,Uruguay,3304000,24,2,23000,4,spa,Spanish,1,Christianity,66.314394282826,7.3383329285255,N,LAM,"South America",11,"America, Latin",2
+UZ,UZB,UZ,Uzbekistan,36695000,44,26,35388000,1,uzn,"Uzbek, Northern",6,Islam,2.3305175016903,0.18776204612836,Y,ASI,Asia,5,"Asia, Central",718
+NH,VUT,VU,Vanuatu,321000,109,,,5,bis,Bislama,1,Christianity,91.134034733956,41.574605812228,N,SOP,Oceania,1,"Australia and Pacific",
+VT,VAT,VA,"Vatican City",1000,1,,,4,lat,Latin,1,Christianity,100,2.5,N,EUR,Europe,10,"Europe, Western",
+VE,VEN,VE,Venezuela,28346000,63,4,119000,5,spa,Spanish,1,Christianity,82.361595338315,12.227707750094,N,LAM,"South America",11,"America, Latin",5
+VM,VNM,VN,Vietnam,100766000,116,69,9630000,4,vie,Vietnamese,2,Buddhism,10.185595385353,2.1723101176772,Y,ASI,Asia,2,"Asia, Southeast",231
+VQ,VIR,VI,"Virgin Islands (U.S.)",82000,6,,,5,eng,English,1,Christianity,94.205282776038,24.506437434739,N,NAR,"North America",12,"America, North and Caribbean",
+WF,WLF,WF,"Wallis and Futuna Islands",11000,3,,,3,fra,French,1,Christianity,98.464819776691,1.7733104995397,N,SOP,Oceania,1,"Australia and Pacific",
+WE,PSE,PS,"West Bank / Gaza",5538000,8,6,5485000,1,ajp,,6,Islam,2.4593904456881,1.1057708986915,Y,ASI,Asia,6,"Africa, North and Middle East",113
+WI,ESH,EH,"Western Sahara",578000,10,10,578000,1,ary,"Arabic, Moroccan",6,Islam,0.027811938526662,0.00076596405681288,Y,AFR,Africa,6,"Africa, North and Middle East",16
+YM,YEM,YE,Yemen,41367000,28,20,41244000,1,arb,"Arabic, Standard",6,Islam,0.1969352586869,0.020438467826086,Y,ASI,Asia,6,"Africa, North and Middle East",827
+ZA,ZMB,ZM,Zambia,21729000,75,4,127000,5,eng,English,1,Christianity,86.340922082192,25.081579831499,N,AFR,Africa,7,"Africa, East and Southern",4
+ZI,ZWE,ZW,Zimbabwe,16761000,40,3,102000,5,eng,English,1,Christianity,76.634669664795,25.337914991512,N,AFR,Africa,7,"Africa, East and Southern",3
+
+Bible Translation status:
+0,Unspecified
+1,Translation Needed
+2,Translation Started
+3,Portions
+4,New Testament
+5,Complete Bible
+
+"Joshua Project welcomes corrections / updates to this data.  Please send feedback to:"
+
+Email:,info@joshuaproject.net
+Web:,www.joshuaproject.net

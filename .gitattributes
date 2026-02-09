@@ -1,0 +1,2 @@
+*.parquet filter=lfs diff=lfs merge=lfs -text
+joshua_project_full_dump.json filter=lfs diff=lfs merge=lfs -text
